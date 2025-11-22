@@ -12,6 +12,7 @@ build/
 *.egg-info/
 frontend/dist/
 frontend/.vite/
+frontend/dev-dist/
 
 # Environment
 .env

@@ -1,12 +1,40 @@
 # 🚀 Améliorations proposées pour Géo Challenge
 
-## ✅ Implémenté
+## ✅ Implémenté (v1.0.0+)
 
+### Fonctionnalités de base
 - ✅ Système de Personal Best (meilleur score personnel)
 - ✅ Stockage local avec localStorage
 - ✅ Affichage du PB sur l'écran d'accueil
 - ✅ Notification visuelle lors d'un nouveau record
 - ✅ Drapeaux réels via FlagCDN API
+- ✅ Leaderboard local avec historique des scores
+
+### Statistiques avancées
+- ✅ Historique des parties (100 dernières)
+- ✅ Graphique d'évolution des scores (10 dernières parties)
+- ✅ Statistiques par catégorie (meilleur, moyenne, nombre de placements)
+- ✅ Statistiques globales (parties jouées, meilleur score, score moyen)
+- ✅ Calcul du score optimal théorique
+- ✅ Indicateur d'efficacité (%)
+
+### Gamification
+- ✅ Système de niveaux avec XP
+- ✅ Barre de progression XP
+- ✅ Séries (streaks) quotidiennes
+- ✅ Meilleure série enregistrée
+
+### Gameplay
+- ✅ Mode chrono (configurable 30-120s par pays)
+- ✅ Personnalisation des catégories (4-8 catégories)
+- ✅ Affichage de la durée de partie
+- ✅ Comparaison avec le score optimal
+
+### Interface utilisateur
+- ✅ Thème sombre/clair avec application immédiate
+- ✅ Design responsive amélioré (mobile/tablette)
+- ✅ Animations (timer, transitions)
+- ✅ Navigation améliorée (accès rapide aux stats/paramètres)
 
 ---
 
@@ -93,11 +121,17 @@
 
 ## 📊 Priorités suggérées
 
-### Phase 1 (Court terme)
-1. Historique des parties
-2. Mode chrono
-3. Amélioration responsive mobile
-4. Tutoriel interactif
+### ✅ Phase 1 (Terminée)
+1. ✅ Historique des parties
+2. ✅ Mode chrono
+3. ✅ Amélioration responsive mobile
+4. ⏳ Tutoriel interactif (À faire)
+
+### 🔄 Phase 2 (En cours / Prochaine)
+1. Tutoriel interactif
+2. Modes de difficulté (Facile/Difficile/Expert)
+3. Partage amélioré (image/QR code)
+4. Système de badges
 
 ### Phase 2 (Moyen terme)
 1. Plus de catégories
