@@ -2,6 +2,8 @@
 
 Jeu de géographie basé sur le concept TikTok "Géo Challenge".
 
+🌐 **Dépôt GitHub** : [https://github.com/Mathis9244/GeoChallenge](https://github.com/Mathis9244/GeoChallenge)
+
 ## 🎮 Concept
 
 Le jeu tire 8 pays aléatoirement. Pour chaque pays, vous devez le placer dans une des 8 catégories disponibles. Vous gagnez des points égaux au rang mondial du pays dans cette catégorie. **Objectif : obtenir le score total le plus petit possible !**
