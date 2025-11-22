@@ -20,6 +20,10 @@ SNAPSHOT_DIR = BASE_DIR / "snapshot"
 SNAPSHOT_DIR.mkdir(exist_ok=True)
 DATA_DIR.mkdir(exist_ok=True)
 
+# Option pour forcer l'utilisation des fichiers locaux (ignorer les APIs)
+# Mettez USE_LOCAL_ONLY = True pour toujours utiliser les fichiers JSON dans data/
+USE_LOCAL_ONLY = os.getenv('USE_LOCAL_ONLY', 'false').lower() == 'true'
+
 # Mapping de noms de pays vers ISO3 (pour les cas spéciaux)
 COUNTRY_NAME_MAPPING = {
     # Variations communes
@@ -215,6 +219,15 @@ def get_world_bank_data(indicator, reverse=False, year=None, fallback_file=None)
         year: Année spécifique (None pour toutes les années, prend la dernière disponible)
         fallback_file: Nom du fichier de secours dans data/ si l'API échoue
     """
+    # Si USE_LOCAL_ONLY est activé, utiliser directement le fichier local
+    if USE_LOCAL_ONLY and fallback_file:
+        print(f"  [LOCAL] Utilisation forcee du fichier local: {fallback_file}")
+        fallback_data = load_local_dataset(fallback_file)
+        fallback_ranks = fallback_data.get("ranks", {})
+        if fallback_ranks:
+            print(f"  [OK] {len(fallback_ranks)} pays charges depuis le fichier local")
+            return fallback_ranks
+        return {}
     # Codes de régions World Bank à exclure (pas des pays ISO3)
     REGION_CODES = {
         'AFE', 'AFW', 'ARB', 'CEB', 'CSS', 'EAP', 'EAS', 'ECA', 'ECS', 'EMU',
@@ -301,6 +314,15 @@ def get_wikidata_capital_population(fallback_file=None):
     Args:
         fallback_file: Nom du fichier de secours dans data/ si l'API échoue
     """
+    # Si USE_LOCAL_ONLY est activé, utiliser directement le fichier local
+    if USE_LOCAL_ONLY and fallback_file:
+        print(f"  [LOCAL] Utilisation forcee du fichier local: {fallback_file}")
+        fallback_data = load_local_dataset(fallback_file)
+        fallback_ranks = fallback_data.get("ranks", {})
+        if fallback_ranks:
+            print(f"  [OK] {len(fallback_ranks)} pays charges depuis le fichier local")
+            return fallback_ranks
+        return {}
     sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
     query = """
     SELECT ?country ?countryLabel ?capital ?capitalLabel ?population ?iso3 WHERE {
