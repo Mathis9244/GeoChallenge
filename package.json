@@ -1,0 +1,22 @@
+{
+  "name": "geo-challenge",
+  "version": "1.0.0",
+  "description": "Jeu de géographie basé sur le concept TikTok Géo Challenge",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mathis9244/GeoChallenge.git"
+  },
+  "keywords": [
+    "geography",
+    "game",
+    "quiz",
+    "react",
+    "education"
+  ],
+  "author": "Mathis Bianic",
+  "license": "MIT",
+  "scripts": {
+    "version": "node scripts/update-version.js"
+  }
+}
+

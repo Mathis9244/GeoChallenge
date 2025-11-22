@@ -1,0 +1,81 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: frontend/package-lock.json
+      
+      - name: Install frontend dependencies
+        run: |
+          cd frontend
+          npm ci
+      
+      - name: Build frontend
+        run: |
+          cd frontend
+          npm run build
+      
+      - name: Extract version from tag
+        id: get_version
+        run: |
+          VERSION=${GITHUB_REF#refs/tags/v}
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Version: $VERSION"
+      
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: Release v${{ steps.get_version.outputs.version }}
+          body: |
+            ## 🎉 Version ${{ steps.get_version.outputs.version }}
+            
+            ### 📦 Contenu de cette release
+            
+            - Application React compilée
+            - Scripts ETL Python
+            - Documentation complète
+            - Datasets et snapshots
+            
+            ### 🚀 Installation
+            
+            ```bash
+            # Cloner le dépôt
+            git clone https://github.com/Mathis9244/GeoChallenge.git
+            cd GeoChallenge
+            git checkout v${{ steps.get_version.outputs.version }}
+            
+            # Installer les dépendances frontend
+            cd frontend
+            npm install
+            
+            # Lancer le jeu
+            npm run dev
+            ```
+            
+            ### 📝 Notes de version
+            
+            Consultez les [commits](https://github.com/Mathis9244/GeoChallenge/compare/${{ github.event.before }}...${{ github.sha }}) pour voir les changements.
+          files: |
+            frontend/dist/**
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
