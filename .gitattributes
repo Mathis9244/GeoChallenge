@@ -1,0 +1,20 @@
+# Normaliser les fins de ligne
+* text=auto
+
+# Fichiers texte avec fins de ligne LF
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.txt text eol=lf
+
+# Fichiers binaires
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
+
