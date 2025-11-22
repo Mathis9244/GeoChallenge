@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Nécessaire pour générer les notes de version
       
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -37,21 +39,64 @@ jobs:
         run: |
           VERSION=${GITHUB_REF#refs/tags/v}
           echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "tag=$GITHUB_REF_NAME" >> $GITHUB_OUTPUT
           echo "Version: $VERSION"
+          echo "Tag: $GITHUB_REF_NAME"
+      
+      - name: Get previous tag
+        id: get_previous_tag
+        run: |
+          PREVIOUS_TAG=$(git describe --tags --abbrev=0 ${{ steps.get_version.outputs.tag }}^ 2>/dev/null || echo "")
+          if [ -z "$PREVIOUS_TAG" ]; then
+            PREVIOUS_TAG=$(git rev-list --max-parents=0 HEAD)
+          fi
+          echo "previous_tag=$PREVIOUS_TAG" >> $GITHUB_OUTPUT
+          echo "Previous tag: $PREVIOUS_TAG"
+      
+      - name: Generate release notes
+        id: generate_notes
+        run: |
+          PREVIOUS_TAG="${{ steps.get_previous_tag.outputs.previous_tag }}"
+          CURRENT_TAG="${{ steps.get_version.outputs.tag }}"
+          
+          # Générer les notes de version à partir des commits
+          if [ -n "$PREVIOUS_TAG" ] && [ "$PREVIOUS_TAG" != "$CURRENT_TAG" ]; then
+            NOTES=$(git log --pretty=format:"- %s (%h)" ${PREVIOUS_TAG}..${CURRENT_TAG} | head -20)
+          else
+            NOTES=$(git log --pretty=format:"- %s (%h)" -10)
+          fi
+          
+          # Sauvegarder dans un fichier temporaire
+          echo "$NOTES" > /tmp/release_notes.txt
+          
+          # Catégoriser les commits
+          FEATURES=$(echo "$NOTES" | grep -iE "^(feat|add|new)" || echo "")
+          FIXES=$(echo "$NOTES" | grep -iE "^(fix|bug|patch)" || echo "")
+          DOCS=$(echo "$NOTES" | grep -iE "^(docs|doc)" || echo "")
+          CHORES=$(echo "$NOTES" | grep -iE "^(chore|refactor|style)" || echo "")
+          
+          echo "features<<EOF" >> $GITHUB_OUTPUT
+          echo "$FEATURES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          
+          echo "fixes<<EOF" >> $GITHUB_OUTPUT
+          echo "$FIXES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+      
+      - name: Create build archive
+        run: |
+          cd frontend
+          zip -r ../geochallenge-v${{ steps.get_version.outputs.version }}.zip dist/ -q
+          cd ..
+          echo "Build archive created: geochallenge-v${{ steps.get_version.outputs.version }}.zip"
       
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
           name: Release v${{ steps.get_version.outputs.version }}
+          tag_name: ${{ steps.get_version.outputs.tag }}
           body: |
             ## 🎉 Version ${{ steps.get_version.outputs.version }}
-            
-            ### 📦 Contenu de cette release
-            
-            - Application React compilée
-            - Scripts ETL Python
-            - Documentation complète
-            - Datasets et snapshots
             
             ### 🚀 Installation
             
@@ -69,13 +114,36 @@ jobs:
             npm run dev
             ```
             
-            ### 📝 Notes de version
+            ### 📦 Contenu de cette release
             
-            Consultez les [commits](https://github.com/Mathis9244/GeoChallenge/compare/${{ github.event.before }}...${{ github.sha }}) pour voir les changements.
+            - ✅ Application React compilée et prête à déployer
+            - ✅ Scripts ETL Python pour générer les snapshots
+            - ✅ Documentation complète (README, PWA, Security)
+            - ✅ Datasets et snapshots de données
+            
+            ### 🆕 Nouvelles fonctionnalités
+            
+            ${{ steps.generate_notes.outputs.features }}
+            
+            ### 🐛 Corrections
+            
+            ${{ steps.generate_notes.outputs.fixes }}
+            
+            ### 📝 Tous les changements
+            
+            Consultez les [commits complets](https://github.com/Mathis9244/GeoChallenge/compare/${{ steps.get_previous_tag.outputs.previous_tag }}...${{ steps.get_version.outputs.tag }}) pour voir tous les changements.
+            
+            ---
+            
+            **📥 Téléchargements**
+            - [Source code (zip)](https://github.com/Mathis9244/GeoChallenge/archive/refs/tags/${{ steps.get_version.outputs.tag }}.zip)
+            - [Source code (tar.gz)](https://github.com/Mathis9244/GeoChallenge/archive/refs/tags/${{ steps.get_version.outputs.tag }}.tar.gz)
+            - [Build précompilé](https://github.com/Mathis9244/GeoChallenge/releases/download/${{ steps.get_version.outputs.tag }}/geochallenge-v${{ steps.get_version.outputs.version }}.zip)
           files: |
-            frontend/dist/**
+            geochallenge-v${{ steps.get_version.outputs.version }}.zip
           draft: false
           prerelease: false
+          generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
