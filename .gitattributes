@@ -1,12 +1,13 @@
 # Normaliser les fins de ligne
 * text=auto
 
-# Fichiers texte avec fins de ligne LF
+# Forcer LF pour les fichiers texte
 *.js text eol=lf
 *.jsx text eol=lf
 *.json text eol=lf
 *.css text eol=lf
 *.md text eol=lf
+*.html text eol=lf
 *.py text eol=lf
 *.txt text eol=lf
 
@@ -17,4 +18,3 @@
 *.gif binary
 *.ico binary
 *.svg binary
-
