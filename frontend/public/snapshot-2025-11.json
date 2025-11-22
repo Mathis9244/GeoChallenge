@@ -1,580 +1,34 @@
 {
   "meta": {
     "season": "2025-11",
-    "generated_at": "2025-11-22T02:38:28.885280"
+    "generated_at": "2025-11-22T15:03:27.605762"
   },
   "countries": {
-    "CRI": {
-      "name": "Costa Rica",
-      "flag": "https://flagcdn.com/w80/cr.png",
+    "MEX": {
+      "name": "Mexico",
+      "flag": "https://flagcdn.com/w80/mx.png",
       "ranks": {
-        "small_area": 196,
-        "gdp": 73,
-        "capital_pop": 132,
-        "military": 132,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "TJK": {
-      "name": "Tajikistan",
-      "flag": "https://flagcdn.com/w80/tj.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 100,
-        "capital_pop": 97,
-        "military": 112,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "DEU": {
-      "name": "Germany",
-      "flag": "https://flagcdn.com/w80/de.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 4,
-        "capital_pop": 137,
-        "military": 35,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "PAN": {
-      "name": "Panama",
-      "flag": "https://flagcdn.com/w80/pa.png",
-      "ranks": {
-        "small_area": 87,
-        "gdp": 72,
-        "capital_pop": 127,
-        "military": 89,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "LUX": {
-      "name": "Luxembourg",
-      "flag": "https://flagcdn.com/w80/lu.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 61,
-        "capital_pop": 158,
-        "military": 165,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "JOR": {
-      "name": "Jordan",
-      "flag": "https://flagcdn.com/w80/jo.png",
-      "ranks": {
-        "small_area": 82,
-        "gdp": 82,
-        "capital_pop": 27,
-        "military": 50,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "HND": {
-      "name": "Honduras",
-      "flag": "https://flagcdn.com/w80/hn.png",
-      "ranks": {
-        "small_area": 94,
-        "gdp": 90,
-        "capital_pop": 85,
-        "military": 99,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "CAN": {
-      "name": "Canada",
-      "flag": "https://flagcdn.com/w80/ca.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 10,
-        "capital_pop": 88,
-        "military": 58,
-        "football": 196,
-        "eez": 7,
-        "rice": 196,
-        "francophones": 19
-      }
-    },
-    "BLZ": {
-      "name": "Belize",
-      "flag": "https://flagcdn.com/w80/bz.png",
-      "ranks": {
-        "small_area": 62,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 155,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "URU": {
-      "name": "URU",
-      "flag": "https://flagcdn.com/w80/xx.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 16,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "MUS": {
-      "name": "Mauritius",
-      "flag": "https://flagcdn.com/w80/mu.png",
-      "ranks": {
-        "small_area": 39,
-        "gdp": 196,
-        "capital_pop": 155,
-        "military": 153,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "SHN": {
-      "name": "Saint Helena, Ascension and Tristan da Cunha",
-      "flag": "https://flagcdn.com/w80/sh.png",
-      "ranks": {
-        "small_area": 13,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "IRN": {
-      "name": "Iran, Islamic Republic of",
-      "flag": "https://flagcdn.com/w80/ir.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 26,
-        "capital_pop": 13,
-        "military": 10,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "IRL": {
-      "name": "Ireland",
-      "flag": "https://flagcdn.com/w80/ie.png",
-      "ranks": {
-        "small_area": 77,
-        "gdp": 31,
-        "capital_pop": 114,
-        "military": 137,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "TCA": {
-      "name": "Turks and Caicos Islands",
-      "flag": "https://flagcdn.com/w80/tc.png",
-      "ranks": {
-        "small_area": 19,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "AGO": {
-      "name": "Angola",
-      "flag": "https://flagcdn.com/w80/ao.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 62,
-        "capital_pop": 37,
-        "military": 49,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "GER": {
-      "name": "GER",
-      "flag": "https://flagcdn.com/w80/xx.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
+        "small_area": 185,
+        "gdp": 13,
+        "capital_pop": 9,
+        "military": 13,
         "football": 14,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
+        "eez": 13,
+        "rice": 61,
+        "francophones": 75
       }
     },
-    "FIN": {
-      "name": "Finland",
-      "flag": "https://flagcdn.com/w80/fi.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 40,
-        "capital_pop": 108,
-        "military": 100,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "VCT": {
-      "name": "Saint Vincent and the Grenadines",
-      "flag": "https://flagcdn.com/w80/vc.png",
-      "ranks": {
-        "small_area": 37,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "NOR": {
-      "name": "Norway",
-      "flag": "https://flagcdn.com/w80/no.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 28,
-        "capital_pop": 106,
-        "military": 95,
-        "football": 196,
-        "eez": 14,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "AND": {
-      "name": "Andorra",
-      "flag": "https://flagcdn.com/w80/ad.png",
-      "ranks": {
-        "small_area": 30,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "BWA": {
-      "name": "Botswana",
-      "flag": "https://flagcdn.com/w80/bw.png",
-      "ranks": {
-        "small_area": 71,
-        "gdp": 196,
-        "capital_pop": 143,
-        "military": 136,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "BHR": {
-      "name": "Bahrain",
-      "flag": "https://flagcdn.com/w80/bh.png",
-      "ranks": {
-        "small_area": 24,
-        "gdp": 196,
-        "capital_pop": 135,
-        "military": 108,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "SYR": {
-      "name": "Syrian Arab Republic",
-      "flag": "https://flagcdn.com/w80/sy.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 36,
-        "military": 26,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "URY": {
-      "name": "Uruguay",
-      "flag": "https://flagcdn.com/w80/uy.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 70,
-        "military": 103,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "PNG": {
-      "name": "Papua New Guinea",
-      "flag": "https://flagcdn.com/w80/pg.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 134,
-        "military": 151,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "MNG": {
-      "name": "Mongolia",
-      "flag": "https://flagcdn.com/w80/mn.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 69,
-        "military": 110,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "COM": {
-      "name": "Comoros",
-      "flag": "https://flagcdn.com/w80/km.png",
-      "ranks": {
-        "small_area": 38,
-        "gdp": 196,
-        "capital_pop": 165,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "ALB": {
-      "name": "Albania",
-      "flag": "https://flagcdn.com/w80/al.png",
-      "ranks": {
-        "small_area": 68,
-        "gdp": 196,
-        "capital_pop": 126,
-        "military": 140,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "DEN": {
-      "name": "DEN",
+    "GUI": {
+      "name": "GUI",
       "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 196,
+        "gdp": 119,
+        "capital_pop": 65,
         "military": 196,
-        "football": 19,
+        "football": 81,
         "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "TUV": {
-      "name": "Tuvalu",
-      "flag": "https://flagcdn.com/w80/tv.png",
-      "ranks": {
-        "small_area": 8,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "FSM": {
-      "name": "Micronesia, Federated States of",
-      "flag": "https://flagcdn.com/w80/fm.png",
-      "ranks": {
-        "small_area": 35,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "ATG": {
-      "name": "Antigua and Barbuda",
-      "flag": "https://flagcdn.com/w80/ag.png",
-      "ranks": {
-        "small_area": 28,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 166,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "TGO": {
-      "name": "Togo",
-      "flag": "https://flagcdn.com/w80/tg.png",
-      "ranks": {
-        "small_area": 75,
-        "gdp": 196,
-        "capital_pop": 166,
-        "military": 135,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "HKG": {
-      "name": "Hong Kong",
-      "flag": "https://flagcdn.com/w80/hk.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 37,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "MAR": {
-      "name": "Morocco",
-      "flag": "https://flagcdn.com/w80/ma.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 57,
-        "capital_pop": 116,
-        "military": 28,
-        "football": 11,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "NIC": {
-      "name": "Nicaragua",
-      "flag": "https://flagcdn.com/w80/ni.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 95,
-        "capital_pop": 99,
-        "military": 127,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "ERI": {
-      "name": "Eritrea",
-      "flag": "https://flagcdn.com/w80/er.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 94,
-        "military": 31,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "UGA": {
-      "name": "Uganda",
-      "flag": "https://flagcdn.com/w80/ug.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 77,
-        "capital_pop": 62,
-        "military": 74,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "MSR": {
-      "name": "Montserrat",
-      "flag": "https://flagcdn.com/w80/ms.png",
-      "ranks": {
-        "small_area": 12,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "KAZ": {
-      "name": "Kazakhstan",
-      "flag": "https://flagcdn.com/w80/kz.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 51,
-        "capital_pop": 83,
-        "military": 61,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
+        "rice": 25,
         "francophones": 196
       }
     },
@@ -582,106 +36,274 @@
       "name": "Cook Islands",
       "flag": "https://flagcdn.com/w80/ck.png",
       "ranks": {
-        "small_area": 17,
-        "gdp": 196,
-        "capital_pop": 196,
+        "small_area": 196,
+        "gdp": 214,
+        "capital_pop": 206,
         "military": 196,
+        "football": 186,
+        "eez": 20,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "GNQ": {
+      "name": "Equatorial Guinea",
+      "flag": "https://flagcdn.com/w80/gq.png",
+      "ranks": {
+        "small_area": 56,
+        "gdp": 151,
+        "capital_pop": 196,
+        "military": 63,
         "football": 196,
+        "eez": 65,
+        "rice": 196,
+        "francophones": 57
+      }
+    },
+    "STP": {
+      "name": "Sao Tome and Principe",
+      "flag": "https://flagcdn.com/w80/st.png",
+      "ranks": {
+        "small_area": 25,
+        "gdp": 207,
+        "capital_pop": 175,
+        "military": 196,
+        "football": 190,
+        "eez": 91,
+        "rice": 196,
+        "francophones": 71
+      }
+    },
+    "UKR": {
+      "name": "Ukraine",
+      "flag": "https://flagcdn.com/w80/ua.png",
+      "ranks": {
+        "small_area": 153,
+        "gdp": 58,
+        "capital_pop": 33,
+        "military": 28,
+        "football": 27,
+        "eez": 88,
+        "rice": 102,
+        "francophones": 69
+      }
+    },
+    "MAC": {
+      "name": "Macao",
+      "flag": "https://flagcdn.com/w80/mo.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 97,
+        "capital_pop": 111,
+        "military": 196,
+        "football": 191,
         "eez": 196,
         "rice": 196,
         "francophones": 196
       }
     },
-    "COL": {
-      "name": "Colombia",
-      "flag": "https://flagcdn.com/w80/co.png",
+    "SUI": {
+      "name": "SUI",
+      "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
         "gdp": 196,
-        "capital_pop": 16,
-        "military": 17,
+        "capital_pop": 196,
+        "military": 196,
         "football": 17,
         "eez": 196,
         "rice": 196,
         "francophones": 196
       }
     },
-    "THA": {
-      "name": "Thailand",
-      "flag": "https://flagcdn.com/w80/th.png",
+    "MRI": {
+      "name": "MRI",
+      "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
-        "gdp": 25,
-        "capital_pop": 22,
-        "military": 16,
-        "football": 196,
+        "gdp": 144,
+        "capital_pop": 159,
+        "military": 196,
+        "football": 177,
         "eez": 196,
-        "rice": 6,
+        "rice": 196,
+        "francophones": 37
+      }
+    },
+    "WSM": {
+      "name": "Samoa",
+      "flag": "https://flagcdn.com/w80/ws.png",
+      "ranks": {
+        "small_area": 29,
+        "gdp": 202,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 196,
+        "eez": 92,
+        "rice": 196,
         "francophones": 196
       }
     },
-    "CYP": {
-      "name": "Cyprus",
-      "flag": "https://flagcdn.com/w80/cy.png",
+    "BDI": {
+      "name": "Burundi",
+      "flag": "https://flagcdn.com/w80/bi.png",
+      "ranks": {
+        "small_area": 55,
+        "gdp": 167,
+        "capital_pop": 162,
+        "military": 106,
+        "football": 145,
+        "eez": 196,
+        "rice": 74,
+        "francophones": 38
+      }
+    },
+    "EGY": {
+      "name": "Egypt",
+      "flag": "https://flagcdn.com/w80/eg.png",
+      "ranks": {
+        "small_area": 169,
+        "gdp": 45,
+        "capital_pop": 7,
+        "military": 11,
+        "football": 34,
+        "eez": 68,
+        "rice": 15,
+        "francophones": 26
+      }
+    },
+    "SEN": {
+      "name": "Senegal",
+      "flag": "https://flagcdn.com/w80/sn.png",
+      "ranks": {
+        "small_area": 112,
+        "gdp": 108,
+        "capital_pop": 69,
+        "military": 53,
+        "football": 19,
+        "eez": 86,
+        "rice": 32,
+        "francophones": 18
+      }
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "flag": "https://flagcdn.com/w80/lt.png",
+      "ranks": {
+        "small_area": 77,
+        "gdp": 80,
+        "capital_pop": 122,
+        "military": 114,
+        "football": 146,
+        "eez": 145,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "TPE": {
+      "name": "TPE",
+      "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
         "gdp": 196,
-        "capital_pop": 171,
-        "military": 121,
-        "football": 196,
+        "capital_pop": 41,
+        "military": 196,
+        "football": 174,
         "eez": 196,
-        "rice": 196,
+        "rice": 30,
         "francophones": 196
       }
     },
-    "CZE": {
-      "name": "Czechia",
-      "flag": "https://flagcdn.com/w80/cz.png",
-      "ranks": {
-        "small_area": 86,
-        "gdp": 42,
-        "capital_pop": 68,
-        "military": 92,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "FRA": {
-      "name": "France",
-      "flag": "https://flagcdn.com/w80/fr.png",
+    "PHI": {
+      "name": "PHI",
+      "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
-        "gdp": 7,
-        "capital_pop": 51,
-        "military": 23,
-        "football": 2,
-        "eez": 1,
-        "rice": 196,
-        "francophones": 1
-      }
-    },
-    "IDN": {
-      "name": "Indonesia",
-      "flag": "https://flagcdn.com/w80/id.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 16,
-        "capital_pop": 6,
-        "military": 9,
-        "football": 196,
-        "eez": 5,
-        "rice": 3,
-        "francophones": 196
-      }
-    },
-    "LIE": {
-      "name": "Liechtenstein",
-      "flag": "https://flagcdn.com/w80/li.png",
-      "ranks": {
-        "small_area": 10,
         "gdp": 196,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 136,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "SGP": {
+      "name": "Singapore",
+      "flag": "https://flagcdn.com/w80/sg.png",
+      "ranks": {
+        "small_area": 20,
+        "gdp": 28,
+        "capital_pop": 21,
+        "military": 196,
+        "football": 151,
+        "eez": 148,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "GMB": {
+      "name": "Gambia",
+      "flag": "https://flagcdn.com/w80/gm.png",
+      "ranks": {
+        "small_area": 38,
+        "gdp": 187,
+        "capital_pop": 196,
+        "military": 79,
+        "football": 196,
+        "eez": 131,
+        "rice": 86,
+        "francophones": 39
+      }
+    },
+    "TON": {
+      "name": "Tonga",
+      "flag": "https://flagcdn.com/w80/to.png",
+      "ranks": {
+        "small_area": 21,
+        "gdp": 211,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 196,
+        "eez": 41,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "DMA": {
+      "name": "Dominica",
+      "flag": "https://flagcdn.com/w80/dm.png",
+      "ranks": {
+        "small_area": 22,
+        "gdp": 209,
+        "capital_pop": 197,
+        "military": 196,
+        "football": 183,
+        "eez": 126,
+        "rice": 196,
+        "francophones": 84
+      }
+    },
+    "WAL": {
+      "name": "WAL",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 32,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "MAF": {
+      "name": "Saint Martin (French part)",
+      "flag": "https://flagcdn.com/w80/mf.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 210,
         "capital_pop": 196,
         "military": 196,
         "football": 196,
@@ -694,459 +316,39 @@
       "name": "Haiti",
       "flag": "https://flagcdn.com/w80/ht.png",
       "ranks": {
-        "small_area": 64,
-        "gdp": 196,
-        "capital_pop": 92,
-        "military": 164,
+        "small_area": 54,
+        "gdp": 113,
+        "capital_pop": 196,
+        "military": 196,
         "football": 196,
-        "eez": 196,
+        "eez": 94,
         "rice": 196,
         "francophones": 196
       }
     },
-    "BOL": {
-      "name": "Bolivia, Plurinational State of",
-      "flag": "https://flagcdn.com/w80/bo.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 78,
-        "capital_pop": 129,
-        "military": 59,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "ZMB": {
-      "name": "Zambia",
-      "flag": "https://flagcdn.com/w80/zm.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 86,
-        "capital_pop": 38,
-        "military": 116,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "HAI": {
-      "name": "HAI",
+    "MTN": {
+      "name": "MTN",
       "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
         "gdp": 196,
         "capital_pop": 196,
         "military": 196,
-        "football": 196,
+        "football": 114,
         "eez": 196,
         "rice": 196,
-        "francophones": 17
-      }
-    },
-    "GBR": {
-      "name": "United Kingdom",
-      "flag": "https://flagcdn.com/w80/gb.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 6,
-        "capital_pop": 12,
-        "military": 41,
-        "football": 196,
-        "eez": 8,
-        "rice": 196,
         "francophones": 196
       }
     },
-    "NPL": {
-      "name": "Nepal",
-      "flag": "https://flagcdn.com/w80/np.png",
+    "GAM": {
+      "name": "GAM",
+      "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
-        "gdp": 80,
-        "capital_pop": 104,
-        "military": 52,
-        "football": 196,
-        "eez": 196,
-        "rice": 17,
-        "francophones": 196
-      }
-    },
-    "TUR": {
-      "name": "Türkiye",
-      "flag": "https://flagcdn.com/w80/tr.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 19,
-        "capital_pop": 20,
-        "military": 13,
-        "football": 196,
-        "eez": 20,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "VAT": {
-      "name": "Holy See (Vatican City State)",
-      "flag": "https://flagcdn.com/w80/va.png",
-      "ranks": {
-        "small_area": 1,
         "gdp": 196,
-        "capital_pop": 196,
+        "capital_pop": 186,
         "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "SSD": {
-      "name": "South Sudan",
-      "flag": "https://flagcdn.com/w80/ss.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 119,
-        "military": 67,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "TKL": {
-      "name": "Tokelau",
-      "flag": "https://flagcdn.com/w80/tk.png",
-      "ranks": {
-        "small_area": 4,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "NGA": {
-      "name": "Nigeria",
-      "flag": "https://flagcdn.com/w80/ng.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 32,
-        "capital_pop": 60,
-        "military": 30,
-        "football": 196,
-        "eez": 196,
-        "rice": 15,
-        "francophones": 9
-      }
-    },
-    "IRQ": {
-      "name": "Iraq",
-      "flag": "https://flagcdn.com/w80/iq.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 46,
-        "capital_pop": 15,
-        "military": 15,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "MDA": {
-      "name": "Moldova, Republic of",
-      "flag": "https://flagcdn.com/w80/md.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 117,
-        "military": 146,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "MDV": {
-      "name": "Maldives",
-      "flag": "https://flagcdn.com/w80/mv.png",
-      "ranks": {
-        "small_area": 22,
-        "gdp": 196,
-        "capital_pop": 160,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "SLV": {
-      "name": "El Salvador",
-      "flag": "https://flagcdn.com/w80/sv.png",
-      "ranks": {
-        "small_area": 60,
-        "gdp": 196,
-        "capital_pop": 133,
-        "military": 78,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "PHL": {
-      "name": "Philippines",
-      "flag": "https://flagcdn.com/w80/ph.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 39,
-        "capital_pop": 55,
-        "military": 40,
-        "football": 196,
-        "eez": 16,
-        "rice": 8,
-        "francophones": 196
-      }
-    },
-    "SOM": {
-      "name": "Somalia",
-      "flag": "https://flagcdn.com/w80/so.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 50,
-        "military": 120,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "GHA": {
-      "name": "Ghana",
-      "flag": "https://flagcdn.com/w80/gh.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 57,
-        "military": 113,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "SRB": {
-      "name": "Serbia",
-      "flag": "https://flagcdn.com/w80/rs.png",
-      "ranks": {
-        "small_area": 88,
-        "gdp": 75,
-        "capital_pop": 150,
-        "military": 86,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "NRU": {
-      "name": "Nauru",
-      "flag": "https://flagcdn.com/w80/nr.png",
-      "ranks": {
-        "small_area": 7,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "CIV": {
-      "name": "Côte d'Ivoire",
-      "flag": "https://flagcdn.com/w80/ci.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 131,
-        "military": 91,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 5
-      }
-    },
-    "BGR": {
-      "name": "Bulgaria",
-      "flag": "https://flagcdn.com/w80/bg.png",
-      "ranks": {
-        "small_area": 93,
-        "gdp": 69,
-        "capital_pop": 73,
-        "military": 82,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "LKA": {
-      "name": "Sri Lanka",
-      "flag": "https://flagcdn.com/w80/lk.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 161,
-        "military": 22,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "KWT": {
-      "name": "Kuwait",
-      "flag": "https://flagcdn.com/w80/kw.png",
-      "ranks": {
-        "small_area": 54,
-        "gdp": 54,
-        "capital_pop": 31,
-        "military": 94,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "LAO": {
-      "name": "Lao People's Democratic Republic",
-      "flag": "https://flagcdn.com/w80/la.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 96,
-        "military": 47,
-        "football": 196,
-        "eez": 196,
-        "rice": 18,
-        "francophones": 196
-      }
-    },
-    "PRY": {
-      "name": "Paraguay",
-      "flag": "https://flagcdn.com/w80/py.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 122,
-        "military": 88,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "LVA": {
-      "name": "Latvia",
-      "flag": "https://flagcdn.com/w80/lv.png",
-      "ranks": {
-        "small_area": 73,
-        "gdp": 196,
-        "capital_pop": 113,
-        "military": 138,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "COG": {
-      "name": "Congo",
-      "flag": "https://flagcdn.com/w80/cg.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 48,
-        "military": 125,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "AUT": {
-      "name": "Austria",
-      "flag": "https://flagcdn.com/w80/at.png",
-      "ranks": {
-        "small_area": 84,
-        "gdp": 27,
-        "capital_pop": 54,
-        "military": 98,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "KOR": {
-      "name": "Korea, Republic of",
-      "flag": "https://flagcdn.com/w80/kr.png",
-      "ranks": {
-        "small_area": 98,
-        "gdp": 11,
-        "capital_pop": 9,
-        "military": 11,
-        "football": 196,
-        "eez": 196,
-        "rice": 14,
-        "francophones": 196
-      }
-    },
-    "PAK": {
-      "name": "Pakistan",
-      "flag": "https://flagcdn.com/w80/pk.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 41,
-        "capital_pop": 89,
-        "military": 6,
-        "football": 196,
-        "eez": 196,
-        "rice": 11,
-        "francophones": 196
-      }
-    },
-    "NER": {
-      "name": "Niger",
-      "flag": "https://flagcdn.com/w80/ne.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 65,
-        "military": 134,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "DOM": {
-      "name": "Dominican Republic",
-      "flag": "https://flagcdn.com/w80/do.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 65,
-        "capital_pop": 46,
-        "military": 60,
-        "football": 196,
+        "football": 117,
         "eez": 196,
         "rice": 196,
         "francophones": 196
@@ -1156,27 +358,1161 @@
       "name": "Guinea-Bissau",
       "flag": "https://flagcdn.com/w80/gw.png",
       "ranks": {
-        "small_area": 49,
+        "small_area": 64,
+        "gdp": 189,
+        "capital_pop": 129,
+        "military": 76,
+        "football": 133,
+        "eez": 97,
+        "rice": 63,
+        "francophones": 58
+      }
+    },
+    "BRA": {
+      "name": "Brazil",
+      "flag": "https://flagcdn.com/w80/br.png",
+      "ranks": {
+        "small_area": 193,
+        "gdp": 11,
+        "capital_pop": 30,
+        "military": 14,
+        "football": 5,
+        "eez": 10,
+        "rice": 11,
+        "francophones": 196
+      }
+    },
+    "CZE": {
+      "name": "Czechia",
+      "flag": "https://flagcdn.com/w80/cz.png",
+      "ranks": {
+        "small_area": 83,
+        "gdp": 43,
+        "capital_pop": 70,
+        "military": 85,
+        "football": 44,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 68
+      }
+    },
+    "PAK": {
+      "name": "Pakistan",
+      "flag": "https://flagcdn.com/w80/pk.png",
+      "ranks": {
+        "small_area": 165,
+        "gdp": 42,
+        "capital_pop": 91,
+        "military": 6,
+        "football": 199,
+        "eez": 67,
+        "rice": 10,
+        "francophones": 196
+      }
+    },
+    "KOS": {
+      "name": "KOS",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 35,
+        "gdp": 153,
+        "capital_pop": 152,
+        "military": 196,
+        "football": 80,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 77
+      }
+    },
+    "MSR": {
+      "name": "Montserrat",
+      "flag": "https://flagcdn.com/w80/ms.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 219,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 176,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "flag": "https://flagcdn.com/w80/my.png",
+      "ranks": {
+        "small_area": 131,
+        "gdp": 36,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 196,
+        "eez": 62,
+        "rice": 26,
+        "francophones": 196
+      }
+    },
+    "KIR": {
+      "name": "Kiribati",
+      "flag": "https://flagcdn.com/w80/ki.png",
+      "ranks": {
+        "small_area": 24,
+        "gdp": 216,
+        "capital_pop": 176,
+        "military": 196,
+        "football": 196,
+        "eez": 12,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "MCO": {
+      "name": "Monaco",
+      "flag": "https://flagcdn.com/w80/mc.png",
+      "ranks": {
+        "small_area": 2,
+        "gdp": 157,
+        "capital_pop": 181,
+        "military": 196,
+        "football": 196,
+        "eez": 150,
+        "rice": 196,
+        "francophones": 73
+      }
+    },
+    "DEU": {
+      "name": "Germany",
+      "flag": "https://flagcdn.com/w80/de.png",
+      "ranks": {
+        "small_area": 135,
+        "gdp": 3,
+        "capital_pop": 196,
+        "military": 22,
+        "football": 196,
+        "eez": 116,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "ALG": {
+      "name": "ALG",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
         "gdp": 196,
-        "capital_pop": 120,
-        "military": 150,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 35,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "CAF": {
+      "name": "Central African Republic",
+      "flag": "https://flagcdn.com/w80/cf.png",
+      "ranks": {
+        "small_area": 154,
+        "gdp": 182,
+        "capital_pop": 196,
+        "military": 60,
+        "football": 196,
+        "eez": 196,
+        "rice": 83,
+        "francophones": 34
+      }
+    },
+    "GUY": {
+      "name": "Guyana",
+      "flag": "https://flagcdn.com/w80/gy.png",
+      "ranks": {
+        "small_area": 115,
+        "gdp": 124,
+        "capital_pop": 165,
+        "military": 140,
+        "football": 154,
+        "eez": 90,
+        "rice": 41,
+        "francophones": 196
+      }
+    },
+    "NIU": {
+      "name": "Niue",
+      "flag": "https://flagcdn.com/w80/nu.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 214,
+        "military": 196,
+        "football": 196,
+        "eez": 63,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "HUN": {
+      "name": "Hungary",
+      "flag": "https://flagcdn.com/w80/hu.png",
+      "ranks": {
+        "small_area": 90,
+        "gdp": 56,
+        "capital_pop": 61,
+        "military": 87,
+        "football": 39,
+        "eez": 196,
+        "rice": 100,
+        "francophones": 66
+      }
+    },
+    "PER": {
+      "name": "Peru",
+      "flag": "https://flagcdn.com/w80/pe.png",
+      "ranks": {
+        "small_area": 179,
+        "gdp": 48,
+        "capital_pop": 6,
+        "military": 33,
+        "football": 50,
+        "eez": 33,
+        "rice": 20,
+        "francophones": 196
+      }
+    },
+    "ETH": {
+      "name": "Ethiopia",
+      "flag": "https://flagcdn.com/w80/et.png",
+      "ranks": {
+        "small_area": 172,
+        "gdp": 72,
+        "capital_pop": 29,
+        "military": 37,
+        "football": 147,
+        "eez": 196,
+        "rice": 65,
+        "francophones": 196
+      }
+    },
+    "PRK": {
+      "name": "Korea, Democratic People's Republic of",
+      "flag": "https://flagcdn.com/w80/kp.png",
+      "ranks": {
+        "small_area": 101,
+        "gdp": 142,
+        "capital_pop": 34,
+        "military": 4,
+        "football": 120,
+        "eez": 101,
+        "rice": 27,
+        "francophones": 196
+      }
+    },
+    "USA": {
+      "name": "United States",
+      "flag": "https://flagcdn.com/w80/us.png",
+      "ranks": {
+        "small_area": 194,
+        "gdp": 1,
+        "capital_pop": 112,
+        "military": 3,
+        "football": 16,
+        "eez": 2,
+        "rice": 14,
+        "francophones": 31
+      }
+    },
+    "ISL": {
+      "name": "Iceland",
+      "flag": "https://flagcdn.com/w80/is.png",
+      "ranks": {
+        "small_area": 92,
+        "gdp": 106,
+        "capital_pop": 164,
+        "military": 153,
+        "football": 74,
+        "eez": 38,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "SRI": {
+      "name": "SRI",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 194,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "THA": {
+      "name": "Thailand",
+      "flag": "https://flagcdn.com/w80/th.png",
+      "ranks": {
+        "small_area": 149,
+        "gdp": 31,
+        "capital_pop": 13,
+        "military": 12,
+        "football": 94,
+        "eez": 66,
+        "rice": 6,
+        "francophones": 44
+      }
+    },
+    "TUR": {
+      "name": "Türkiye",
+      "flag": "https://flagcdn.com/w80/tr.png",
+      "ranks": {
+        "small_area": 162,
+        "gdp": 16,
+        "capital_pop": 20,
+        "military": 9,
+        "football": 25,
+        "eez": 69,
+        "rice": 40,
+        "francophones": 196
+      }
+    },
+    "VEN": {
+      "name": "Venezuela, Bolivarian Republic of",
+      "flag": "https://flagcdn.com/w80/ve.png",
+      "ranks": {
+        "small_area": 166,
+        "gdp": 85,
+        "capital_pop": 49,
+        "military": 35,
+        "football": 47,
+        "eez": 56,
+        "rice": 50,
+        "francophones": 196
+      }
+    },
+    "TLS": {
+      "name": "Timor-Leste",
+      "flag": "https://flagcdn.com/w80/tl.png",
+      "ranks": {
+        "small_area": 43,
+        "gdp": 195,
+        "capital_pop": 145,
+        "military": 141,
+        "football": 198,
+        "eez": 110,
+        "rice": 79,
+        "francophones": 196
+      }
+    },
+    "GRN": {
+      "name": "GRN",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 185,
+        "military": 196,
+        "football": 166,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "VGB": {
+      "name": "Virgin Islands, British",
+      "flag": "https://flagcdn.com/w80/vg.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 200,
+        "capital_pop": 201,
+        "military": 196,
+        "football": 208,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "flag": "https://flagcdn.com/w80/kz.png",
+      "ranks": {
+        "small_area": 189,
+        "gdp": 50,
+        "capital_pop": 66,
+        "military": 104,
+        "football": 115,
+        "eez": 196,
+        "rice": 52,
+        "francophones": 196
+      }
+    },
+    "BLZ": {
+      "name": "Belize",
+      "flag": "https://flagcdn.com/w80/bz.png",
+      "ranks": {
+        "small_area": 50,
+        "gdp": 183,
+        "capital_pop": 195,
+        "military": 144,
+        "football": 181,
+        "eez": 120,
+        "rice": 95,
+        "francophones": 196
+      }
+    },
+    "AUT": {
+      "name": "Austria",
+      "flag": "https://flagcdn.com/w80/at.png",
+      "ranks": {
+        "small_area": 85,
+        "gdp": 30,
+        "capital_pop": 55,
+        "military": 84,
+        "football": 24,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 32
+      }
+    },
+    "FSM": {
+      "name": "Micronesia, Federated States of",
+      "flag": "https://flagcdn.com/w80/fm.png",
+      "ranks": {
+        "small_area": 19,
+        "gdp": 212,
+        "capital_pop": 202,
+        "military": 196,
+        "football": 196,
+        "eez": 14,
+        "rice": 114,
+        "francophones": 196
+      }
+    },
+    "BLR": {
+      "name": "Belarus",
+      "flag": "https://flagcdn.com/w80/by.png",
+      "ranks": {
+        "small_area": 114,
+        "gdp": 83,
+        "capital_pop": 54,
+        "military": 196,
+        "football": 100,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "SWE": {
+      "name": "Sweden",
+      "flag": "https://flagcdn.com/w80/se.png",
+      "ranks": {
+        "small_area": 143,
+        "gdp": 26,
+        "capital_pop": 96,
+        "military": 107,
+        "football": 43,
+        "eez": 85,
+        "rice": 196,
+        "francophones": 40
+      }
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "flag": "https://flagcdn.com/w80/sk.png",
+      "ranks": {
+        "small_area": 71,
+        "gdp": 62,
+        "capital_pop": 130,
+        "military": 86,
+        "football": 45,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 65
+      }
+    },
+    "SXM": {
+      "name": "Sint Maarten (Dutch part)",
+      "flag": "https://flagcdn.com/w80/sx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 198,
+        "capital_pop": 196,
+        "military": 196,
         "football": 196,
         "eez": 196,
         "rice": 196,
         "francophones": 196
       }
     },
-    "BRN": {
-      "name": "Brunei Darussalam",
-      "flag": "https://flagcdn.com/w80/bn.png",
+    "AND": {
+      "name": "Andorra",
+      "flag": "https://flagcdn.com/w80/ad.png",
       "ranks": {
-        "small_area": 44,
+        "small_area": 17,
+        "gdp": 177,
+        "capital_pop": 192,
+        "military": 196,
+        "football": 172,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "UAE": {
+      "name": "UAE",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
         "gdp": 196,
-        "capital_pop": 172,
-        "military": 141,
+        "capital_pop": 93,
+        "military": 196,
+        "football": 64,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "CAM": {
+      "name": "CAM",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 48,
+        "military": 196,
+        "football": 179,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "AFG": {
+      "name": "Afghanistan",
+      "flag": "https://flagcdn.com/w80/af.png",
+      "ranks": {
+        "small_area": 158,
+        "gdp": 138,
+        "capital_pop": 22,
+        "military": 196,
+        "football": 163,
+        "eez": 196,
+        "rice": 47,
+        "francophones": 196
+      }
+    },
+    "MAD": {
+      "name": "MAD",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 75,
+        "military": 196,
+        "football": 105,
+        "eez": 196,
+        "rice": 18,
+        "francophones": 12
+      }
+    },
+    "SOL": {
+      "name": "SOL",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 174,
+        "military": 196,
+        "football": 152,
+        "eez": 196,
+        "rice": 104,
+        "francophones": 196
+      }
+    },
+    "BRU": {
+      "name": "BRU",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 189,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "DEN": {
+      "name": "DEN",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 116,
+        "military": 196,
+        "football": 20,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 46
+      }
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "flag": "https://flagcdn.com/w80/za.png",
+      "ranks": {
+        "small_area": 174,
+        "gdp": 40,
+        "capital_pop": 32,
+        "military": 39,
+        "football": 196,
+        "eez": 24,
+        "rice": 103,
+        "francophones": 196
+      }
+    },
+    "MYA": {
+      "name": "MYA",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 164,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "NPL": {
+      "name": "Nepal",
+      "flag": "https://flagcdn.com/w80/np.png",
+      "ranks": {
+        "small_area": 105,
+        "gdp": 103,
+        "capital_pop": 104,
+        "military": 196,
+        "football": 196,
+        "eez": 196,
+        "rice": 16,
+        "francophones": 196
+      }
+    },
+    "RSA": {
+      "name": "RSA",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 61,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "GIN": {
+      "name": "Guinea",
+      "flag": "https://flagcdn.com/w80/gn.png",
+      "ranks": {
+        "small_area": 121,
+        "gdp": 196,
+        "capital_pop": 196,
+        "military": 75,
+        "football": 196,
+        "eez": 113,
+        "rice": 196,
+        "francophones": 20
+      }
+    },
+    "VUT": {
+      "name": "Vanuatu",
+      "flag": "https://flagcdn.com/w80/vu.png",
+      "ranks": {
+        "small_area": 40,
+        "gdp": 205,
+        "capital_pop": 196,
+        "military": 154,
+        "football": 196,
+        "eez": 40,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "flag": "https://flagcdn.com/w80/cy.png",
+      "ranks": {
+        "small_area": 34,
+        "gdp": 104,
+        "capital_pop": 142,
+        "military": 118,
+        "football": 129,
+        "eez": 104,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "SUR": {
+      "name": "Suriname",
+      "flag": "https://flagcdn.com/w80/sr.png",
+      "ranks": {
+        "small_area": 108,
+        "gdp": 176,
+        "capital_pop": 151,
+        "military": 143,
+        "football": 121,
+        "eez": 93,
+        "rice": 60,
+        "francophones": 196
+      }
+    },
+    "FJI": {
+      "name": "Fiji",
+      "flag": "https://flagcdn.com/w80/fj.png",
+      "ranks": {
+        "small_area": 46,
+        "gdp": 170,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 196,
+        "eez": 27,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "PRY": {
+      "name": "Paraguay",
+      "flag": "https://flagcdn.com/w80/py.png",
+      "ranks": {
+        "small_area": 139,
+        "gdp": 100,
+        "capital_pop": 196,
+        "military": 196,
         "football": 196,
         "eez": 196,
         "rice": 196,
+        "francophones": 196
+      }
+    },
+    "MNE": {
+      "name": "Montenegro",
+      "flag": "https://flagcdn.com/w80/me.png",
+      "ranks": {
+        "small_area": 41,
+        "gdp": 160,
+        "capital_pop": 156,
+        "military": 97,
+        "football": 83,
+        "eez": 143,
+        "rice": 196,
+        "francophones": 82
+      }
+    },
+    "CUW": {
+      "name": "Curaçao",
+      "flag": "https://flagcdn.com/w80/cw.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 184,
+        "capital_pop": 160,
+        "military": 196,
+        "football": 82,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "NOR": {
+      "name": "Norway",
+      "flag": "https://flagcdn.com/w80/no.png",
+      "ranks": {
+        "small_area": 137,
+        "gdp": 32,
+        "capital_pop": 110,
+        "military": 112,
+        "football": 29,
+        "eez": 17,
+        "rice": 196,
+        "francophones": 47
+      }
+    },
+    "EQG": {
+      "name": "EQG",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 143,
+        "military": 196,
+        "football": 99,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "JOR": {
+      "name": "Jordan",
+      "flag": "https://flagcdn.com/w80/jo.png",
+      "ranks": {
+        "small_area": 88,
+        "gdp": 95,
+        "capital_pop": 24,
+        "military": 196,
+        "football": 66,
+        "eez": 153,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "SWZ": {
+      "name": "Eswatini",
+      "flag": "https://flagcdn.com/w80/sz.png",
+      "ranks": {
+        "small_area": 44,
+        "gdp": 171,
+        "capital_pop": 171,
+        "military": 68,
+        "football": 159,
+        "eez": 196,
+        "rice": 109,
+        "francophones": 196
+      }
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "flag": "https://flagcdn.com/w80/si.png",
+      "ranks": {
+        "small_area": 47,
+        "gdp": 87,
+        "capital_pop": 144,
+        "military": 96,
+        "football": 55,
+        "eez": 152,
+        "rice": 196,
+        "francophones": 70
+      }
+    },
+    "BEL": {
+      "name": "Belgium",
+      "flag": "https://flagcdn.com/w80/be.png",
+      "ranks": {
+        "small_area": 61,
+        "gdp": 23,
+        "capital_pop": 157,
+        "military": 82,
+        "football": 8,
+        "eez": 146,
+        "rice": 196,
+        "francophones": 11
+      }
+    },
+    "MNP": {
+      "name": "Northern Mariana Islands",
+      "flag": "https://flagcdn.com/w80/mp.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 206,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 196,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "ARG": {
+      "name": "Argentina",
+      "flag": "https://flagcdn.com/w80/ar.png",
+      "ranks": {
+        "small_area": 190,
+        "gdp": 25,
+        "capital_pop": 28,
+        "military": 32,
+        "football": 2,
+        "eez": 29,
+        "rice": 38,
+        "francophones": 196
+      }
+    },
+    "SSD": {
+      "name": "South Sudan",
+      "flag": "https://flagcdn.com/w80/ss.png",
+      "ranks": {
+        "small_area": 157,
+        "gdp": 173,
+        "capital_pop": 126,
+        "military": 196,
+        "football": 167,
+        "eez": 196,
+        "rice": 89,
+        "francophones": 196
+      }
+    },
+    "KSA": {
+      "name": "KSA",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 59,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "LBY": {
+      "name": "Libya",
+      "flag": "https://flagcdn.com/w80/ly.png",
+      "ranks": {
+        "small_area": 182,
+        "gdp": 196,
+        "capital_pop": 80,
+        "military": 43,
+        "football": 111,
+        "eez": 59,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "HND": {
+      "name": "Honduras",
+      "flag": "https://flagcdn.com/w80/hn.png",
+      "ranks": {
+        "small_area": 97,
+        "gdp": 105,
+        "capital_pop": 196,
+        "military": 119,
+        "football": 196,
+        "eez": 73,
+        "rice": 84,
+        "francophones": 196
+      }
+    },
+    "GHA": {
+      "name": "Ghana",
+      "flag": "https://flagcdn.com/w80/gh.png",
+      "ranks": {
+        "small_area": 118,
+        "gdp": 71,
+        "capital_pop": 45,
+        "military": 51,
+        "football": 72,
+        "eez": 75,
+        "rice": 35,
+        "francophones": 196
+      }
+    },
+    "SLV": {
+      "name": "El Salvador",
+      "flag": "https://flagcdn.com/w80/sv.png",
+      "ranks": {
+        "small_area": 48,
+        "gdp": 109,
+        "capital_pop": 123,
+        "military": 110,
+        "football": 97,
+        "eez": 105,
+        "rice": 92,
+        "francophones": 196
+      }
+    },
+    "PLE": {
+      "name": "PLE",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 180,
+        "military": 196,
+        "football": 98,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "MDG": {
+      "name": "Madagascar",
+      "flag": "https://flagcdn.com/w80/mg.png",
+      "ranks": {
+        "small_area": 152,
+        "gdp": 135,
+        "capital_pop": 196,
+        "military": 69,
+        "football": 196,
+        "eez": 28,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "ROU": {
+      "name": "Romania",
+      "flag": "https://flagcdn.com/w80/ro.png",
+      "ranks": {
+        "small_area": 117,
+        "gdp": 41,
+        "capital_pop": 60,
+        "military": 88,
+        "football": 49,
+        "eez": 130,
+        "rice": 94,
+        "francophones": 29
+      }
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "flag": "https://flagcdn.com/w80/uz.png",
+      "ranks": {
+        "small_area": 142,
+        "gdp": 63,
+        "capital_pop": 35,
+        "military": 196,
+        "football": 51,
+        "eez": 196,
+        "rice": 56,
+        "francophones": 196
+      }
+    },
+    "NIC": {
+      "name": "Nicaragua",
+      "flag": "https://flagcdn.com/w80/ni.png",
+      "ranks": {
+        "small_area": 102,
+        "gdp": 131,
+        "capital_pop": 196,
+        "military": 122,
+        "football": 196,
+        "eez": 96,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "PAN": {
+      "name": "Panama",
+      "flag": "https://flagcdn.com/w80/pa.png",
+      "ranks": {
+        "small_area": 82,
+        "gdp": 81,
+        "capital_pop": 86,
+        "military": 152,
+        "football": 30,
+        "eez": 61,
+        "rice": 54,
+        "francophones": 196
+      }
+    },
+    "TKM": {
+      "name": "Turkmenistan",
+      "flag": "https://flagcdn.com/w80/tm.png",
+      "ranks": {
+        "small_area": 147,
+        "gdp": 89,
+        "capital_pop": 106,
+        "military": 105,
+        "football": 137,
+        "eez": 196,
+        "rice": 78,
+        "francophones": 196
+      }
+    },
+    "IRQ": {
+      "name": "Iraq",
+      "flag": "https://flagcdn.com/w80/iq.png",
+      "ranks": {
+        "small_area": 140,
+        "gdp": 54,
+        "capital_pop": 15,
+        "military": 18,
+        "football": 60,
+        "eez": 149,
+        "rice": 97,
+        "francophones": 196
+      }
+    },
+    "ESP": {
+      "name": "Spain",
+      "flag": "https://flagcdn.com/w80/es.png",
+      "ranks": {
+        "small_area": 148,
+        "gdp": 12,
+        "capital_pop": 27,
+        "military": 26,
+        "football": 1,
+        "eez": 31,
+        "rice": 57,
+        "francophones": 15
+      }
+    },
+    "MRT": {
+      "name": "Mauritania",
+      "flag": "https://flagcdn.com/w80/mr.png",
+      "ranks": {
+        "small_area": 170,
+        "gdp": 155,
+        "capital_pop": 78,
+        "military": 80,
+        "football": 196,
+        "eez": 83,
+        "rice": 53,
+        "francophones": 196
+      }
+    },
+    "TZA": {
+      "name": "Tanzania, United Republic of",
+      "flag": "https://flagcdn.com/w80/tz.png",
+      "ranks": {
+        "small_area": 168,
+        "gdp": 82,
+        "capital_pop": 134,
+        "military": 47,
+        "football": 196,
+        "eez": 74,
+        "rice": 23,
+        "francophones": 196
+      }
+    },
+    "ERI": {
+      "name": "Eritrea",
+      "flag": "https://flagcdn.com/w80/er.png",
+      "ranks": {
+        "small_area": 99,
+        "gdp": 192,
+        "capital_pop": 97,
+        "military": 74,
+        "football": 196,
+        "eez": 108,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "MLT": {
+      "name": "Malta",
+      "flag": "https://flagcdn.com/w80/mt.png",
+      "ranks": {
+        "small_area": 10,
+        "gdp": 118,
+        "capital_pop": 204,
+        "military": 142,
+        "football": 161,
+        "eez": 117,
+        "rice": 196,
+        "francophones": 62
+      }
+    },
+    "AGO": {
+      "name": "Angola",
+      "flag": "https://flagcdn.com/w80/ao.png",
+      "ranks": {
+        "small_area": 176,
+        "gdp": 70,
+        "capital_pop": 196,
+        "military": 64,
+        "football": 196,
+        "eez": 53,
+        "rice": 99,
         "francophones": 196
       }
     },
@@ -1184,26 +1520,334 @@
       "name": "Chad",
       "flag": "https://flagcdn.com/w80/td.png",
       "ranks": {
-        "small_area": 196,
-        "gdp": 89,
-        "capital_pop": 82,
-        "military": 75,
+        "small_area": 178,
+        "gdp": 129,
+        "capital_pop": 196,
+        "military": 57,
         "football": 196,
         "eez": 196,
-        "rice": 196,
-        "francophones": 11
+        "rice": 62,
+        "francophones": 30
       }
     },
-    "ZAF": {
-      "name": "South Africa",
-      "flag": "https://flagcdn.com/w80/za.png",
+    "AIA": {
+      "name": "Anguilla",
+      "flag": "https://flagcdn.com/w80/ai.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 213,
+        "capital_pop": 210,
+        "military": 196,
+        "football": 209,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "MMR": {
+      "name": "Myanmar",
+      "flag": "https://flagcdn.com/w80/mm.png",
+      "ranks": {
+        "small_area": 159,
+        "gdp": 92,
+        "capital_pop": 81,
+        "military": 16,
+        "football": 196,
+        "eez": 51,
+        "rice": 7,
+        "francophones": 196
+      }
+    },
+    "NGA": {
+      "name": "Nigeria",
+      "flag": "https://flagcdn.com/w80/ng.png",
+      "ranks": {
+        "small_area": 167,
+        "gdp": 52,
+        "capital_pop": 76,
+        "military": 36,
+        "football": 38,
+        "eez": 77,
+        "rice": 13,
+        "francophones": 196
+      }
+    },
+    "LCA": {
+      "name": "Saint Lucia",
+      "flag": "https://flagcdn.com/w80/lc.png",
+      "ranks": {
+        "small_area": 18,
+        "gdp": 186,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 165,
+        "eez": 135,
+        "rice": 196,
+        "francophones": 88
+      }
+    },
+    "MUS": {
+      "name": "Mauritius",
+      "flag": "https://flagcdn.com/w80/mu.png",
+      "ranks": {
+        "small_area": 27,
+        "gdp": 196,
+        "capital_pop": 196,
+        "military": 70,
+        "football": 196,
+        "eez": 26,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "MAR": {
+      "name": "Morocco",
+      "flag": "https://flagcdn.com/w80/ma.png",
+      "ranks": {
+        "small_area": 141,
+        "gdp": 60,
+        "capital_pop": 121,
+        "military": 41,
+        "football": 11,
+        "eez": 45,
+        "rice": 85,
+        "francophones": 4
+      }
+    },
+    "BOT": {
+      "name": "BOT",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 136,
+        "capital_pop": 148,
+        "military": 196,
+        "football": 138,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "TAN": {
+      "name": "TAN",
+      "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
         "gdp": 196,
-        "capital_pop": 140,
-        "military": 54,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 112,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "SAM": {
+      "name": "SAM",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 179,
+        "military": 196,
+        "football": 188,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "BTN": {
+      "name": "Bhutan",
+      "flag": "https://flagcdn.com/w80/bt.png",
+      "ranks": {
+        "small_area": 65,
+        "gdp": 180,
+        "capital_pop": 166,
+        "military": 196,
         "football": 196,
-        "eez": 18,
+        "eez": 196,
+        "rice": 88,
+        "francophones": 196
+      }
+    },
+    "ITA": {
+      "name": "Italy",
+      "flag": "https://flagcdn.com/w80/it.png",
+      "ranks": {
+        "small_area": 127,
+        "gdp": 8,
+        "capital_pop": 37,
+        "military": 20,
+        "football": 12,
+        "eez": 49,
+        "rice": 37,
+        "francophones": 6
+      }
+    },
+    "VIE": {
+      "name": "VIE",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 110,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "IRN": {
+      "name": "Iran, Islamic Republic of",
+      "flag": "https://flagcdn.com/w80/ir.png",
+      "ranks": {
+        "small_area": 181,
+        "gdp": 44,
+        "capital_pop": 12,
+        "military": 8,
+        "football": 21,
+        "eez": 82,
+        "rice": 31,
+        "francophones": 196
+      }
+    },
+    "PUR": {
+      "name": "PUR",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 68,
+        "capital_pop": 139,
+        "military": 196,
+        "football": 156,
+        "eez": 196,
+        "rice": 113,
+        "francophones": 196
+      }
+    },
+    "NED": {
+      "name": "NED",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 101,
+        "military": 196,
+        "football": 7,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 25
+      }
+    },
+    "NER": {
+      "name": "Niger",
+      "flag": "https://flagcdn.com/w80/ne.png",
+      "ranks": {
+        "small_area": 177,
+        "gdp": 128,
+        "capital_pop": 196,
+        "military": 56,
+        "football": 196,
+        "eez": 196,
+        "rice": 71,
+        "francophones": 196
+      }
+    },
+    "ATG": {
+      "name": "Antigua and Barbuda",
+      "flag": "https://flagcdn.com/w80/ag.png",
+      "ranks": {
+        "small_area": 14,
+        "gdp": 191,
+        "capital_pop": 194,
+        "military": 150,
+        "football": 162,
+        "eez": 102,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "CAY": {
+      "name": "CAY",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 166,
+        "capital_pop": 183,
+        "military": 196,
+        "football": 195,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "RUS": {
+      "name": "Russian Federation",
+      "flag": "https://flagcdn.com/w80/ru.png",
+      "ranks": {
+        "small_area": 197,
+        "gdp": 9,
+        "capital_pop": 3,
+        "military": 5,
+        "football": 33,
+        "eez": 4,
+        "rice": 42,
+        "francophones": 43
+      }
+    },
+    "ASA": {
+      "name": "ASA",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 208,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 184,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "POR": {
+      "name": "POR",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 6,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "BWA": {
+      "name": "Botswana",
+      "flag": "https://flagcdn.com/w80/bw.png",
+      "ranks": {
+        "small_area": 151,
+        "gdp": 196,
+        "capital_pop": 196,
+        "military": 66,
+        "football": 196,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "CHI": {
+      "name": "CHI",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 52,
+        "eez": 196,
         "rice": 196,
         "francophones": 196
       }
@@ -1212,139 +1856,265 @@
       "name": "North Macedonia",
       "flag": "https://flagcdn.com/w80/mk.png",
       "ranks": {
-        "small_area": 69,
-        "gdp": 196,
+        "small_area": 52,
+        "gdp": 137,
         "capital_pop": 125,
-        "military": 115,
-        "football": 196,
+        "military": 92,
+        "football": 65,
         "eez": 196,
-        "rice": 196,
-        "francophones": 196
+        "rice": 93,
+        "francophones": 72
       }
     },
-    "BRB": {
-      "name": "Barbados",
-      "flag": "https://flagcdn.com/w80/bb.png",
+    "KWT": {
+      "name": "Kuwait",
+      "flag": "https://flagcdn.com/w80/kw.png",
       "ranks": {
-        "small_area": 25,
-        "gdp": 196,
-        "capital_pop": 163,
-        "military": 161,
+        "small_area": 45,
+        "gdp": 61,
+        "capital_pop": 177,
+        "military": 116,
         "football": 196,
-        "eez": 196,
+        "eez": 138,
         "rice": 196,
         "francophones": 196
       }
     },
-    "SLB": {
-      "name": "Solomon Islands",
-      "flag": "https://flagcdn.com/w80/sb.png",
+    "TTO": {
+      "name": "Trinidad and Tobago",
+      "flag": "https://flagcdn.com/w80/tt.png",
       "ranks": {
-        "small_area": 41,
-        "gdp": 196,
-        "capital_pop": 167,
-        "military": 196,
+        "small_area": 31,
+        "gdp": 121,
+        "capital_pop": 196,
+        "military": 136,
         "football": 196,
-        "eez": 196,
+        "eez": 109,
         "rice": 196,
         "francophones": 196
       }
     },
-    "CHN": {
-      "name": "China",
-      "flag": "https://flagcdn.com/w80/cn.png",
+    "NIR": {
+      "name": "NIR",
+      "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
-        "gdp": 2,
-        "capital_pop": 1,
-        "military": 2,
-        "football": 196,
-        "eez": 10,
-        "rice": 1,
-        "francophones": 196
-      }
-    },
-    "BEN": {
-      "name": "Benin",
-      "flag": "https://flagcdn.com/w80/bj.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 96,
-        "capital_pop": 145,
-        "military": 124,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 15
-      }
-    },
-    "MLT": {
-      "name": "Malta",
-      "flag": "https://flagcdn.com/w80/mt.png",
-      "ranks": {
-        "small_area": 23,
         "gdp": 196,
         "capital_pop": 196,
-        "military": 158,
-        "football": 196,
+        "military": 196,
+        "football": 69,
         "eez": 196,
         "rice": 196,
         "francophones": 196
       }
     },
-    "VEN": {
-      "name": "Venezuela, Bolivarian Republic of",
-      "flag": "https://flagcdn.com/w80/ve.png",
+    "TJK": {
+      "name": "Tajikistan",
+      "flag": "https://flagcdn.com/w80/tj.png",
       "ranks": {
-        "small_area": 196,
-        "gdp": 98,
-        "capital_pop": 45,
-        "military": 18,
+        "small_area": 104,
+        "gdp": 140,
+        "capital_pop": 103,
+        "military": 128,
+        "football": 101,
+        "eez": 196,
+        "rice": 75,
+        "francophones": 196
+      }
+    },
+    "LAO": {
+      "name": "Lao People's Democratic Republic",
+      "flag": "https://flagcdn.com/w80/la.png",
+      "ranks": {
+        "small_area": 116,
+        "gdp": 141,
+        "capital_pop": 99,
+        "military": 108,
+        "football": 187,
+        "eez": 196,
+        "rice": 19,
+        "francophones": 52
+      }
+    },
+    "MLI": {
+      "name": "Mali",
+      "flag": "https://flagcdn.com/w80/ml.png",
+      "ranks": {
+        "small_area": 175,
+        "gdp": 122,
+        "capital_pop": 58,
+        "military": 54,
+        "football": 53,
+        "eez": 196,
+        "rice": 22,
+        "francophones": 21
+      }
+    },
+    "BGD": {
+      "name": "Bangladesh",
+      "flag": "https://flagcdn.com/w80/bd.png",
+      "ranks": {
+        "small_area": 106,
+        "gdp": 35,
+        "capital_pop": 11,
+        "military": 15,
         "football": 196,
+        "eez": 98,
+        "rice": 3,
+        "francophones": 196
+      }
+    },
+    "CIV": {
+      "name": "Côte d'Ivoire",
+      "flag": "https://flagcdn.com/w80/ci.png",
+      "ranks": {
+        "small_area": 130,
+        "gdp": 78,
+        "capital_pop": 136,
+        "military": 52,
+        "football": 42,
+        "eez": 81,
+        "rice": 28,
+        "francophones": 10
+      }
+    },
+    "LIE": {
+      "name": "Liechtenstein",
+      "flag": "https://flagcdn.com/w80/li.png",
+      "ranks": {
+        "small_area": 6,
+        "gdp": 159,
+        "capital_pop": 205,
+        "military": 196,
+        "football": 206,
         "eez": 196,
         "rice": 196,
         "francophones": 196
       }
     },
-    "LBR": {
-      "name": "Liberia",
-      "flag": "https://flagcdn.com/w80/lr.png",
+    "GTM": {
+      "name": "Guatemala",
+      "flag": "https://flagcdn.com/w80/gt.png",
+      "ranks": {
+        "small_area": 93,
+        "gdp": 69,
+        "capital_pop": 196,
+        "military": 115,
+        "football": 196,
+        "eez": 100,
+        "rice": 91,
+        "francophones": 196
+      }
+    },
+    "MAS": {
+      "name": "MAS",
+      "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
         "gdp": 196,
-        "capital_pop": 87,
-        "military": 157,
-        "football": 196,
+        "capital_pop": 59,
+        "military": 196,
+        "football": 116,
         "eez": 196,
         "rice": 196,
         "francophones": 196
       }
     },
-    "NAM": {
-      "name": "Namibia",
-      "flag": "https://flagcdn.com/w80/na.png",
+    "TRI": {
+      "name": "TRI",
+      "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
         "gdp": 196,
-        "capital_pop": 124,
-        "military": 114,
+        "capital_pop": 182,
+        "military": 196,
+        "football": 96,
+        "eez": 196,
+        "rice": 115,
+        "francophones": 196
+      }
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "flag": "https://flagcdn.com/w80/gb.png",
+      "ranks": {
+        "small_area": 120,
+        "gdp": 6,
+        "capital_pop": 10,
+        "military": 24,
         "football": 196,
+        "eez": 5,
+        "rice": 196,
+        "francophones": 8
+      }
+    },
+    "IRL": {
+      "name": "Ireland",
+      "flag": "https://flagcdn.com/w80/ie.png",
+      "ranks": {
+        "small_area": 80,
+        "gdp": 24,
+        "capital_pop": 120,
+        "military": 126,
+        "football": 58,
+        "eez": 58,
+        "rice": 196,
+        "francophones": 42
+      }
+    },
+    "COG": {
+      "name": "Congo",
+      "flag": "https://flagcdn.com/w80/cg.png",
+      "ranks": {
+        "small_area": 134,
+        "gdp": 145,
+        "capital_pop": 196,
+        "military": 62,
+        "football": 196,
+        "eez": 124,
+        "rice": 108,
+        "francophones": 196
+      }
+    },
+    "BOL": {
+      "name": "Bolivia, Plurinational State of",
+      "flag": "https://flagcdn.com/w80/bo.png",
+      "ranks": {
+        "small_area": 171,
+        "gdp": 94,
+        "capital_pop": 138,
+        "military": 196,
+        "football": 76,
+        "eez": 196,
+        "rice": 46,
+        "francophones": 196
+      }
+    },
+    "TAH": {
+      "name": "TAH",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 169,
+        "capital_pop": 191,
+        "military": 196,
+        "football": 157,
         "eez": 196,
         "rice": 196,
         "francophones": 196
       }
     },
-    "LSO": {
-      "name": "Lesotho",
-      "flag": "https://flagcdn.com/w80/ls.png",
+    "IDN": {
+      "name": "Indonesia",
+      "flag": "https://flagcdn.com/w80/id.png",
       "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 130,
-        "military": 156,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
+        "small_area": 184,
+        "gdp": 17,
+        "capital_pop": 5,
+        "military": 7,
+        "football": 123,
+        "eez": 6,
+        "rice": 4,
         "francophones": 196
       }
     },
@@ -1362,491 +2132,29 @@
         "francophones": 196
       }
     },
-    "GIN": {
-      "name": "Guinea",
-      "flag": "https://flagcdn.com/w80/gn.png",
+    "RWA": {
+      "name": "Rwanda",
+      "flag": "https://flagcdn.com/w80/rw.png",
+      "ranks": {
+        "small_area": 53,
+        "gdp": 148,
+        "capital_pop": 82,
+        "military": 196,
+        "football": 132,
+        "eez": 196,
+        "rice": 73,
+        "francophones": 56
+      }
+    },
+    "SCO": {
+      "name": "SCO",
+      "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 63,
-        "military": 123,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 12
-      }
-    },
-    "MDG": {
-      "name": "Madagascar",
-      "flag": "https://flagcdn.com/w80/mg.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 94,
-        "capital_pop": 72,
-        "military": 101,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "SVK": {
-      "name": "Slovakia",
-      "flag": "https://flagcdn.com/w80/sk.png",
-      "ranks": {
-        "small_area": 89,
-        "gdp": 58,
-        "capital_pop": 121,
-        "military": 111,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "GTM": {
-      "name": "Guatemala",
-      "flag": "https://flagcdn.com/w80/gt.png",
-      "ranks": {
-        "small_area": 96,
-        "gdp": 68,
-        "capital_pop": 90,
-        "military": 76,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "SXM": {
-      "name": "Sint Maarten (Dutch part)",
-      "flag": "https://flagcdn.com/w80/sx.png",
-      "ranks": {
-        "small_area": 11,
         "gdp": 196,
         "capital_pop": 196,
         "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "DNK": {
-      "name": "Denmark",
-      "flag": "https://flagcdn.com/w80/dk.png",
-      "ranks": {
-        "small_area": 90,
-        "gdp": 33,
-        "capital_pop": 109,
-        "military": 117,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "NLD": {
-      "name": "Netherlands",
-      "flag": "https://flagcdn.com/w80/nl.png",
-      "ranks": {
-        "small_area": 91,
-        "gdp": 17,
-        "capital_pop": 101,
-        "military": 80,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "SLE": {
-      "name": "Sierra Leone",
-      "flag": "https://flagcdn.com/w80/sl.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 95,
-        "military": 139,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "TTO": {
-      "name": "Trinidad and Tobago",
-      "flag": "https://flagcdn.com/w80/tt.png",
-      "ranks": {
-        "small_area": 43,
-        "gdp": 196,
-        "capital_pop": 174,
-        "military": 147,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "MYS": {
-      "name": "Malaysia",
-      "flag": "https://flagcdn.com/w80/my.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 35,
-        "capital_pop": 11,
-        "military": 45,
-        "football": 196,
-        "eez": 196,
-        "rice": 20,
-        "francophones": 196
-      }
-    },
-    "AFG": {
-      "name": "Afghanistan",
-      "flag": "https://flagcdn.com/w80/af.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 88,
-        "capital_pop": 25,
-        "military": 37,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "PRK": {
-      "name": "Korea, Democratic People's Republic of",
-      "flag": "https://flagcdn.com/w80/kp.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 34,
-        "military": 3,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "CAF": {
-      "name": "Central African Republic",
-      "flag": "https://flagcdn.com/w80/cf.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 103,
-        "military": 131,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 3
-      }
-    },
-    "LTU": {
-      "name": "Lithuania",
-      "flag": "https://flagcdn.com/w80/lt.png",
-      "ranks": {
-        "small_area": 74,
-        "gdp": 196,
-        "capital_pop": 115,
-        "military": 83,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "WSM": {
-      "name": "Samoa",
-      "flag": "https://flagcdn.com/w80/ws.png",
-      "ranks": {
-        "small_area": 40,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "CUB": {
-      "name": "Cuba",
-      "flag": "https://flagcdn.com/w80/cu.png",
-      "ranks": {
-        "small_area": 95,
-        "gdp": 196,
-        "capital_pop": 52,
-        "military": 57,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "NZL": {
-      "name": "New Zealand",
-      "flag": "https://flagcdn.com/w80/nz.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 44,
-        "capital_pop": 149,
-        "military": 133,
-        "football": 196,
-        "eez": 6,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "SGP": {
-      "name": "Singapore",
-      "flag": "https://flagcdn.com/w80/sg.png",
-      "ranks": {
-        "small_area": 34,
-        "gdp": 34,
-        "capital_pop": 19,
-        "military": 65,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "EGY": {
-      "name": "Egypt",
-      "flag": "https://flagcdn.com/w80/eg.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 38,
-        "capital_pop": 8,
-        "military": 7,
-        "football": 196,
-        "eez": 196,
-        "rice": 16,
-        "francophones": 196
-      }
-    },
-    "ROU": {
-      "name": "Romania",
-      "flag": "https://flagcdn.com/w80/ro.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 43,
-        "capital_pop": 59,
-        "military": 48,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "MCO": {
-      "name": "Monaco",
-      "flag": "https://flagcdn.com/w80/mc.png",
-      "ranks": {
-        "small_area": 2,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "MEX": {
-      "name": "Mexico",
-      "flag": "https://flagcdn.com/w80/mx.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 15,
-        "capital_pop": 10,
-        "military": 19,
-        "football": 15,
-        "eez": 12,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "COD": {
-      "name": "Congo, The Democratic Republic of the",
-      "flag": "https://flagcdn.com/w80/cd.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 3,
-        "military": 46,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 2
-      }
-    },
-    "TUN": {
-      "name": "Tunisia",
-      "flag": "https://flagcdn.com/w80/tn.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 71,
-        "capital_pop": 112,
-        "military": 70,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 16
-      }
-    },
-    "PSE": {
-      "name": "Palestine, State of",
-      "flag": "https://flagcdn.com/w80/ps.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 142,
-        "military": 170,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "FJI": {
-      "name": "Fiji",
-      "flag": "https://flagcdn.com/w80/fj.png",
-      "ranks": {
-        "small_area": 46,
-        "gdp": 196,
-        "capital_pop": 164,
-        "military": 148,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "ETH": {
-      "name": "Ethiopia",
-      "flag": "https://flagcdn.com/w80/et.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 66,
-        "capital_pop": 21,
-        "military": 44,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "HRV": {
-      "name": "Croatia",
-      "flag": "https://flagcdn.com/w80/hr.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 79,
-        "capital_pop": 105,
-        "military": 106,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "SYC": {
-      "name": "Seychelles",
-      "flag": "https://flagcdn.com/w80/sc.png",
-      "ranks": {
-        "small_area": 29,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 169,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "ARM": {
-      "name": "Armenia",
-      "flag": "https://flagcdn.com/w80/am.png",
-      "ranks": {
-        "small_area": 67,
-        "gdp": 196,
-        "capital_pop": 81,
-        "military": 71,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "GEO": {
-      "name": "Georgia",
-      "flag": "https://flagcdn.com/w80/ge.png",
-      "ranks": {
-        "small_area": 76,
-        "gdp": 84,
-        "capital_pop": 80,
-        "military": 93,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "PRT": {
-      "name": "Portugal",
-      "flag": "https://flagcdn.com/w80/pt.png",
-      "ranks": {
-        "small_area": 99,
-        "gdp": 47,
-        "capital_pop": 118,
-        "military": 68,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "BLR": {
-      "name": "Belarus",
-      "flag": "https://flagcdn.com/w80/by.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 53,
-        "military": 38,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "GRD": {
-      "name": "Grenada",
-      "flag": "https://flagcdn.com/w80/gd.png",
-      "ranks": {
-        "small_area": 21,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "ARE": {
-      "name": "United Arab Emirates",
-      "flag": "https://flagcdn.com/w80/ae.png",
-      "ranks": {
-        "small_area": 85,
-        "gdp": 29,
-        "capital_pop": 64,
-        "military": 63,
-        "football": 196,
+        "football": 36,
         "eez": 196,
         "rice": 196,
         "francophones": 196
@@ -1856,503 +2164,69 @@
       "name": "Qatar",
       "flag": "https://flagcdn.com/w80/qa.png",
       "ranks": {
-        "small_area": 52,
-        "gdp": 49,
-        "capital_pop": 75,
-        "military": 102,
-        "football": 196,
-        "eez": 196,
+        "small_area": 39,
+        "gdp": 57,
+        "capital_pop": 79,
+        "military": 117,
+        "football": 54,
+        "eez": 123,
         "rice": 196,
-        "francophones": 196
+        "francophones": 64
       }
     },
-    "KEN": {
-      "name": "Kenya",
-      "flag": "https://flagcdn.com/w80/ke.png",
+    "CUB": {
+      "name": "Cuba",
+      "flag": "https://flagcdn.com/w80/cu.png",
       "ranks": {
-        "small_area": 196,
-        "gdp": 67,
-        "capital_pop": 23,
-        "military": 97,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "MMR": {
-      "name": "Myanmar",
-      "flag": "https://flagcdn.com/w80/mm.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 64,
-        "capital_pop": 76,
-        "military": 14,
-        "football": 196,
-        "eez": 196,
-        "rice": 7,
-        "francophones": 196
-      }
-    },
-    "PER": {
-      "name": "Peru",
-      "flag": "https://flagcdn.com/w80/pe.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 45,
-        "capital_pop": 7,
-        "military": 39,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "BTN": {
-      "name": "Bhutan",
-      "flag": "https://flagcdn.com/w80/bt.png",
-      "ranks": {
-        "small_area": 55,
-        "gdp": 196,
-        "capital_pop": 162,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "MNE": {
-      "name": "Montenegro",
-      "flag": "https://flagcdn.com/w80/me.png",
-      "ranks": {
-        "small_area": 59,
-        "gdp": 196,
-        "capital_pop": 153,
-        "military": 126,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "PLW": {
-      "name": "Palau",
-      "flag": "https://flagcdn.com/w80/pw.png",
-      "ranks": {
-        "small_area": 27,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "GAB": {
-      "name": "Gabon",
-      "flag": "https://flagcdn.com/w80/ga.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 102,
-        "military": 143,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 20
-      }
-    },
-    "KIR": {
-      "name": "Kiribati",
-      "flag": "https://flagcdn.com/w80/ki.png",
-      "ranks": {
-        "small_area": 33,
-        "gdp": 196,
-        "capital_pop": 170,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "NIU": {
-      "name": "Niue",
-      "flag": "https://flagcdn.com/w80/nu.png",
-      "ranks": {
-        "small_area": 18,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "SWE": {
-      "name": "Sweden",
-      "flag": "https://flagcdn.com/w80/se.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 24,
-        "capital_pop": 93,
-        "military": 119,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "SEN": {
-      "name": "Senegal",
-      "flag": "https://flagcdn.com/w80/sn.png",
-      "ranks": {
-        "small_area": 78,
-        "gdp": 83,
-        "capital_pop": 66,
-        "military": 109,
-        "football": 18,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 10
-      }
-    },
-    "SWZ": {
-      "name": "Eswatini",
-      "flag": "https://flagcdn.com/w80/sz.png",
-      "ranks": {
-        "small_area": 47,
-        "gdp": 196,
-        "capital_pop": 168,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "MRT": {
-      "name": "Mauritania",
-      "flag": "https://flagcdn.com/w80/mr.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 84,
-        "military": 105,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "BLM": {
-      "name": "Saint Barthélemy",
-      "flag": "https://flagcdn.com/w80/bl.png",
-      "ranks": {
-        "small_area": 14,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "GNQ": {
-      "name": "Equatorial Guinea",
-      "flag": "https://flagcdn.com/w80/gq.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 136,
-        "military": 163,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "DMA": {
-      "name": "Dominica",
-      "flag": "https://flagcdn.com/w80/dm.png",
-      "ranks": {
-        "small_area": 31,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "ITA": {
-      "name": "Italy",
-      "flag": "https://flagcdn.com/w80/it.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 8,
-        "capital_pop": 35,
-        "military": 20,
-        "football": 9,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "ARG": {
-      "name": "Argentina",
-      "flag": "https://flagcdn.com/w80/ar.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 23,
-        "capital_pop": 29,
-        "military": 53,
-        "football": 1,
-        "eez": 17,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "EST": {
-      "name": "Estonia",
-      "flag": "https://flagcdn.com/w80/ee.png",
-      "ranks": {
-        "small_area": 72,
-        "gdp": 196,
-        "capital_pop": 123,
-        "military": 142,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "BDI": {
-      "name": "Burundi",
-      "flag": "https://flagcdn.com/w80/bi.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 159,
-        "military": 87,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "CMR": {
-      "name": "Cameroon",
-      "flag": "https://flagcdn.com/w80/cm.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 85,
-        "capital_pop": 41,
-        "military": 85,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 4
-      }
-    },
-    "SPM": {
-      "name": "Saint Pierre and Miquelon",
-      "flag": "https://flagcdn.com/w80/pm.png",
-      "ranks": {
-        "small_area": 15,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "POL": {
-      "name": "Poland",
-      "flag": "https://flagcdn.com/w80/pl.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 21,
-        "capital_pop": 56,
-        "military": 34,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "SVN": {
-      "name": "Slovenia",
-      "flag": "https://flagcdn.com/w80/si.png",
-      "ranks": {
-        "small_area": 70,
-        "gdp": 196,
-        "capital_pop": 138,
-        "military": 144,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "STP": {
-      "name": "Sao Tome and Principe",
-      "flag": "https://flagcdn.com/w80/st.png",
-      "ranks": {
-        "small_area": 26,
-        "gdp": 196,
-        "capital_pop": 169,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "ISL": {
-      "name": "Iceland",
-      "flag": "https://flagcdn.com/w80/is.png",
-      "ranks": {
-        "small_area": 97,
-        "gdp": 196,
-        "capital_pop": 156,
-        "military": 167,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "DZA": {
-      "name": "Algeria",
-      "flag": "https://flagcdn.com/w80/dz.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 43,
-        "military": 21,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "ECU": {
-      "name": "Ecuador",
-      "flag": "https://flagcdn.com/w80/ec.png",
-      "ranks": {
-        "small_area": 196,
+        "small_area": 94,
         "gdp": 59,
-        "capital_pop": 58,
-        "military": 77,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
+        "capital_pop": 51,
+        "military": 196,
+        "football": 168,
+        "eez": 60,
+        "rice": 67,
         "francophones": 196
       }
     },
-    "SUI": {
-      "name": "SUI",
+    "CRC": {
+      "name": "CRC",
       "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
         "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 12,
+        "capital_pop": 140,
+        "military": 151,
+        "football": 48,
         "eez": 196,
-        "rice": 196,
-        "francophones": 196
+        "rice": 76,
+        "francophones": 85
       }
     },
-    "GUY": {
-      "name": "Guyana",
-      "flag": "https://flagcdn.com/w80/gy.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 144,
-        "military": 152,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "TLS": {
-      "name": "Timor-Leste",
-      "flag": "https://flagcdn.com/w80/tl.png",
-      "ranks": {
-        "small_area": 58,
-        "gdp": 196,
-        "capital_pop": 148,
-        "military": 160,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "IND": {
-      "name": "India",
-      "flag": "https://flagcdn.com/w80/in.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 5,
-        "capital_pop": 141,
-        "military": 1,
-        "football": 196,
-        "eez": 15,
-        "rice": 2,
-        "francophones": 196
-      }
-    },
-    "CRO": {
-      "name": "CRO",
+    "FIJ": {
+      "name": "FIJ",
       "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
         "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 6,
+        "capital_pop": 173,
+        "military": 139,
+        "football": 155,
         "eez": 196,
-        "rice": 196,
+        "rice": 96,
         "francophones": 196
       }
     },
-    "CHL": {
-      "name": "Chile",
-      "flag": "https://flagcdn.com/w80/cl.png",
+    "PHL": {
+      "name": "Philippines",
+      "flag": "https://flagcdn.com/w80/ph.png",
       "ranks": {
-        "small_area": 196,
-        "gdp": 36,
-        "capital_pop": 18,
-        "military": 51,
+        "small_area": 126,
+        "gdp": 33,
+        "capital_pop": 57,
+        "military": 17,
         "football": 196,
-        "eez": 13,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "SUR": {
-      "name": "Suriname",
-      "flag": "https://flagcdn.com/w80/sr.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 147,
-        "military": 159,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
+        "eez": 22,
+        "rice": 8,
         "francophones": 196
       }
     },
@@ -2360,459 +2234,95 @@
       "name": "Marshall Islands",
       "flag": "https://flagcdn.com/w80/mh.png",
       "ranks": {
-        "small_area": 9,
-        "gdp": 196,
-        "capital_pop": 196,
+        "small_area": 7,
+        "gdp": 217,
+        "capital_pop": 188,
         "military": 196,
         "football": 196,
-        "eez": 196,
+        "eez": 19,
         "rice": 196,
         "francophones": 196
       }
     },
-    "TWN": {
-      "name": "Taiwan, Province of China",
-      "flag": "https://flagcdn.com/w80/tw.png",
+    "BRN": {
+      "name": "Brunei Darussalam",
+      "flag": "https://flagcdn.com/w80/bn.png",
       "ranks": {
-        "small_area": 66,
-        "gdp": 196,
-        "capital_pop": 40,
-        "military": 196,
+        "small_area": 32,
+        "gdp": 146,
+        "capital_pop": 170,
+        "military": 132,
         "football": 196,
-        "eez": 196,
-        "rice": 196,
+        "eez": 141,
+        "rice": 101,
         "francophones": 196
       }
     },
-    "AZE": {
-      "name": "Azerbaijan",
-      "flag": "https://flagcdn.com/w80/az.png",
-      "ranks": {
-        "small_area": 83,
-        "gdp": 81,
-        "capital_pop": 44,
-        "military": 55,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "MWI": {
-      "name": "Malawi",
-      "flag": "https://flagcdn.com/w80/mw.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 91,
-        "military": 118,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "GMB": {
-      "name": "Gambia",
-      "flag": "https://flagcdn.com/w80/gm.png",
-      "ranks": {
-        "small_area": 53,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 149,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "LBN": {
-      "name": "Lebanon",
-      "flag": "https://flagcdn.com/w80/lb.png",
-      "ranks": {
-        "small_area": 50,
-        "gdp": 74,
-        "capital_pop": 42,
-        "military": 56,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "BRA": {
-      "name": "Brazil",
-      "flag": "https://flagcdn.com/w80/br.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 9,
-        "capital_pop": 30,
-        "military": 8,
-        "football": 3,
-        "eez": 11,
-        "rice": 9,
-        "francophones": 196
-      }
-    },
-    "MAD": {
-      "name": "MAD",
+    "GER": {
+      "name": "GER",
       "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
         "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 6
-      }
-    },
-    "VNM": {
-      "name": "Viet Nam",
-      "flag": "https://flagcdn.com/w80/vn.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 55,
-        "capital_pop": 14,
-        "military": 12,
-        "football": 196,
-        "eez": 196,
-        "rice": 5,
-        "francophones": 196
-      }
-    },
-    "BIH": {
-      "name": "Bosnia and Herzegovina",
-      "flag": "https://flagcdn.com/w80/ba.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 139,
-        "military": 128,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "BEL": {
-      "name": "Belgium",
-      "flag": "https://flagcdn.com/w80/be.png",
-      "ranks": {
-        "small_area": 65,
-        "gdp": 22,
-        "capital_pop": 151,
-        "military": 96,
-        "football": 5,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 14
-      }
-    },
-    "LCA": {
-      "name": "Saint Lucia",
-      "flag": "https://flagcdn.com/w80/lc.png",
-      "ranks": {
-        "small_area": 36,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "HUN": {
-      "name": "Hungary",
-      "flag": "https://flagcdn.com/w80/hu.png",
-      "ranks": {
-        "small_area": 100,
-        "gdp": 52,
-        "capital_pop": 61,
-        "military": 73,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "DJI": {
-      "name": "Djibouti",
-      "flag": "https://flagcdn.com/w80/dj.png",
-      "ranks": {
-        "small_area": 45,
-        "gdp": 196,
-        "capital_pop": 111,
-        "military": 122,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "ZWE": {
-      "name": "Zimbabwe",
-      "flag": "https://flagcdn.com/w80/zw.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 87,
-        "capital_pop": 47,
-        "military": 69,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "POR": {
-      "name": "POR",
-      "flag": "https://flagcdn.com/w80/xx.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 8,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "KGZ": {
-      "name": "Kyrgyzstan",
-      "flag": "https://flagcdn.com/w80/kg.png",
-      "ranks": {
-        "small_area": 79,
-        "gdp": 196,
-        "capital_pop": 74,
-        "military": 104,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "MLI": {
-      "name": "Mali",
-      "flag": "https://flagcdn.com/w80/ml.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 92,
         "capital_pop": 26,
-        "military": 79,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 8
-      }
-    },
-    "KHM": {
-      "name": "Cambodia",
-      "flag": "https://flagcdn.com/w80/kh.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 49,
-        "military": 33,
-        "football": 196,
-        "eez": 196,
-        "rice": 12,
-        "francophones": 196
-      }
-    },
-    "CHE": {
-      "name": "Switzerland",
-      "flag": "https://flagcdn.com/w80/ch.png",
-      "ranks": {
-        "small_area": 92,
-        "gdp": 20,
-        "capital_pop": 157,
-        "military": 107,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 18
-      }
-    },
-    "VUT": {
-      "name": "Vanuatu",
-      "flag": "https://flagcdn.com/w80/vu.png",
-      "ranks": {
-        "small_area": 56,
-        "gdp": 196,
-        "capital_pop": 173,
         "military": 196,
-        "football": 196,
+        "football": 9,
         "eez": 196,
         "rice": 196,
-        "francophones": 196
+        "francophones": 5
       }
     },
-    "UZB": {
-      "name": "Uzbekistan",
-      "flag": "https://flagcdn.com/w80/uz.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 63,
-        "capital_pop": 32,
-        "military": 62,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "YEM": {
-      "name": "Yemen",
-      "flag": "https://flagcdn.com/w80/ye.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 97,
-        "capital_pop": 78,
-        "military": 81,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "TKM": {
-      "name": "Turkmenistan",
-      "flag": "https://flagcdn.com/w80/tm.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 86,
-        "military": 66,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "JAM": {
-      "name": "Jamaica",
-      "flag": "https://flagcdn.com/w80/jm.png",
-      "ranks": {
-        "small_area": 51,
-        "gdp": 196,
-        "capital_pop": 98,
-        "military": 145,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "BFA": {
-      "name": "Burkina Faso",
-      "flag": "https://flagcdn.com/w80/bf.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 91,
-        "capital_pop": 39,
-        "military": 129,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 7
-      }
-    },
-    "RUS": {
-      "name": "Russian Federation",
-      "flag": "https://flagcdn.com/w80/ru.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 12,
-        "capital_pop": 5,
-        "military": 4,
-        "football": 196,
-        "eez": 4,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "SMR": {
-      "name": "San Marino",
-      "flag": "https://flagcdn.com/w80/sm.png",
-      "ranks": {
-        "small_area": 6,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "IOT": {
-      "name": "British Indian Ocean Territory",
-      "flag": "https://flagcdn.com/w80/io.png",
-      "ranks": {
-        "small_area": 16,
-        "gdp": 196,
-        "capital_pop": 196,
-        "military": 196,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "LBY": {
-      "name": "Libya",
-      "flag": "https://flagcdn.com/w80/ly.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 76,
-        "capital_pop": 71,
-        "military": 168,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "NED": {
-      "name": "NED",
+    "ANG": {
+      "name": "ANG",
       "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
         "gdp": 196,
-        "capital_pop": 196,
+        "capital_pop": 43,
         "military": 196,
-        "football": 7,
+        "football": 89,
         "eez": 196,
         "rice": 196,
         "francophones": 196
       }
     },
-    "TZA": {
-      "name": "Tanzania, United Republic of",
-      "flag": "https://flagcdn.com/w80/tz.png",
+    "FRA": {
+      "name": "France",
+      "flag": "https://flagcdn.com/w80/fr.png",
+      "ranks": {
+        "small_area": 156,
+        "gdp": 7,
+        "capital_pop": 50,
+        "military": 21,
+        "football": 3,
+        "eez": 1,
+        "rice": 80,
+        "francophones": 1
+      }
+    },
+    "CTA": {
+      "name": "CTA",
+      "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
-        "gdp": 70,
-        "capital_pop": 175,
-        "military": 90,
-        "football": 196,
+        "gdp": 196,
+        "capital_pop": 102,
+        "military": 196,
+        "football": 139,
         "eez": 196,
-        "rice": 19,
+        "rice": 196,
         "francophones": 196
       }
     },
-    "CPV": {
-      "name": "Cabo Verde",
-      "flag": "https://flagcdn.com/w80/cv.png",
+    "SEY": {
+      "name": "SEY",
+      "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
-        "small_area": 42,
+        "small_area": 196,
         "gdp": 196,
-        "capital_pop": 152,
-        "military": 162,
-        "football": 196,
+        "capital_pop": 190,
+        "military": 196,
+        "football": 204,
         "eez": 196,
         "rice": 196,
         "francophones": 196
@@ -2822,36 +2332,358 @@
       "name": "Mozambique",
       "flag": "https://flagcdn.com/w80/mz.png",
       "ranks": {
-        "small_area": 196,
-        "gdp": 93,
-        "capital_pop": 79,
-        "military": 130,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
+        "small_area": 163,
+        "gdp": 125,
+        "capital_pop": 83,
+        "military": 48,
+        "football": 102,
+        "eez": 44,
+        "rice": 55,
+        "francophones": 55
       }
     },
-    "UKR": {
-      "name": "Ukraine",
-      "flag": "https://flagcdn.com/w80/ua.png",
+    "SKN": {
+      "name": "SKN",
+      "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
-        "gdp": 53,
-        "capital_pop": 33,
-        "military": 24,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "VGB": {
-      "name": "Virgin Islands, British",
-      "flag": "https://flagcdn.com/w80/vg.png",
-      "ranks": {
-        "small_area": 20,
         "gdp": 196,
+        "capital_pop": 199,
+        "military": 196,
+        "football": 150,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "SYR": {
+      "name": "Syrian Arab Republic",
+      "flag": "https://flagcdn.com/w80/sy.png",
+      "ranks": {
+        "small_area": 111,
+        "gdp": 133,
+        "capital_pop": 53,
+        "military": 196,
+        "football": 87,
+        "eez": 139,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "flag": "https://flagcdn.com/w80/lu.png",
+      "ranks": {
+        "small_area": 28,
+        "gdp": 76,
+        "capital_pop": 161,
+        "military": 147,
+        "football": 103,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 61
+      }
+    },
+    "BER": {
+      "name": "BER",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 161,
+        "capital_pop": 212,
+        "military": 196,
+        "football": 170,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "HAI": {
+      "name": "HAI",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 95,
+        "military": 148,
+        "football": 85,
+        "eez": 196,
+        "rice": 72,
+        "francophones": 17
+      }
+    },
+    "PAR": {
+      "name": "PAR",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 127,
+        "military": 121,
+        "football": 40,
+        "eez": 196,
+        "rice": 43,
+        "francophones": 81
+      }
+    },
+    "KUW": {
+      "name": "KUW",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 135,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "SYC": {
+      "name": "Seychelles",
+      "flag": "https://flagcdn.com/w80/sc.png",
+      "ranks": {
+        "small_area": 15,
+        "gdp": 194,
+        "capital_pop": 196,
+        "military": 71,
+        "football": 196,
+        "eez": 25,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "VIR": {
+      "name": "Virgin Islands, U.S.",
+      "flag": "https://flagcdn.com/w80/vi.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 174,
+        "capital_pop": 198,
+        "military": 196,
+        "football": 207,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "CHL": {
+      "name": "Chile",
+      "flag": "https://flagcdn.com/w80/cl.png",
+      "ranks": {
+        "small_area": 161,
+        "gdp": 46,
+        "capital_pop": 19,
+        "military": 34,
+        "football": 196,
+        "eez": 11,
+        "rice": 77,
+        "francophones": 196
+      }
+    },
+    "BAN": {
+      "name": "BAN",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 180,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "TUV": {
+      "name": "Tuvalu",
+      "flag": "https://flagcdn.com/w80/tv.png",
+      "ranks": {
+        "small_area": 4,
+        "gdp": 220,
+        "capital_pop": 203,
+        "military": 196,
+        "football": 196,
+        "eez": 39,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "KOR": {
+      "name": "Korea, Republic of",
+      "flag": "https://flagcdn.com/w80/kr.png",
+      "ranks": {
+        "small_area": 91,
+        "gdp": 14,
+        "capital_pop": 8,
+        "military": 25,
+        "football": 22,
+        "eez": 55,
+        "rice": 17,
+        "francophones": 196
+      }
+    },
+    "GRE": {
+      "name": "GRE",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 46,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "BEN": {
+      "name": "Benin",
+      "flag": "https://flagcdn.com/w80/bj.png",
+      "ranks": {
+        "small_area": 98,
+        "gdp": 126,
+        "capital_pop": 149,
+        "military": 131,
+        "football": 92,
+        "eez": 122,
+        "rice": 48,
+        "francophones": 19
+      }
+    },
+    "BHR": {
+      "name": "Bahrain",
+      "flag": "https://flagcdn.com/w80/bh.png",
+      "ranks": {
+        "small_area": 23,
+        "gdp": 101,
+        "capital_pop": 155,
+        "military": 130,
+        "football": 91,
+        "eez": 140,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "KEN": {
+      "name": "Kenya",
+      "flag": "https://flagcdn.com/w80/ke.png",
+      "ranks": {
+        "small_area": 150,
+        "gdp": 64,
+        "capital_pop": 23,
+        "military": 38,
+        "football": 113,
+        "eez": 99,
+        "rice": 66,
+        "francophones": 196
+      }
+    },
+    "TCA": {
+      "name": "Turks and Caicos Islands",
+      "flag": "https://flagcdn.com/w80/tc.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 197,
+        "capital_pop": 208,
+        "military": 196,
+        "football": 205,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "KHM": {
+      "name": "Cambodia",
+      "flag": "https://flagcdn.com/w80/kh.png",
+      "ranks": {
+        "small_area": 110,
+        "gdp": 98,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 196,
+        "eez": 112,
+        "rice": 9,
+        "francophones": 51
+      }
+    },
+    "NRU": {
+      "name": "Nauru",
+      "flag": "https://flagcdn.com/w80/nr.png",
+      "ranks": {
+        "small_area": 3,
+        "gdp": 218,
+        "capital_pop": 213,
+        "military": 196,
+        "football": 196,
+        "eez": 64,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "flag": "https://flagcdn.com/w80/bg.png",
+      "ranks": {
+        "small_area": 95,
+        "gdp": 67,
+        "capital_pop": 196,
+        "military": 89,
+        "football": 196,
+        "eez": 121,
+        "rice": 81,
+        "francophones": 196
+      }
+    },
+    "MWI": {
+      "name": "Malawi",
+      "flag": "https://flagcdn.com/w80/mw.png",
+      "ranks": {
+        "small_area": 100,
+        "gdp": 147,
+        "capital_pop": 94,
+        "military": 124,
+        "football": 126,
+        "eez": 196,
+        "rice": 70,
+        "francophones": 196
+      }
+    },
+    "CHN": {
+      "name": "China",
+      "flag": "https://flagcdn.com/w80/cn.png",
+      "ranks": {
+        "small_area": 195,
+        "gdp": 2,
+        "capital_pop": 1,
+        "military": 2,
+        "football": 93,
+        "eez": 34,
+        "rice": 2,
+        "francophones": 196
+      }
+    },
+    "MDA": {
+      "name": "Moldova, Republic of",
+      "flag": "https://flagcdn.com/w80/md.png",
+      "ranks": {
+        "small_area": 62,
+        "gdp": 134,
+        "capital_pop": 107,
+        "military": 135,
+        "football": 158,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "IMN": {
+      "name": "Isle of Man",
+      "flag": "https://flagcdn.com/w80/im.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 165,
         "capital_pop": 196,
         "military": 196,
         "football": 196,
@@ -2860,16 +2692,828 @@
         "francophones": 196
       }
     },
+    "DOM": {
+      "name": "Dominican Republic",
+      "flag": "https://flagcdn.com/w80/do.png",
+      "ranks": {
+        "small_area": 70,
+        "gdp": 66,
+        "capital_pop": 84,
+        "military": 196,
+        "football": 143,
+        "eez": 71,
+        "rice": 39,
+        "francophones": 196
+      }
+    },
+    "DNK": {
+      "name": "Denmark",
+      "flag": "https://flagcdn.com/w80/dk.png",
+      "ranks": {
+        "small_area": 68,
+        "gdp": 37,
+        "capital_pop": 196,
+        "military": 120,
+        "football": 196,
+        "eez": 15,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "NIG": {
+      "name": "NIG",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 71,
+        "military": 196,
+        "football": 109,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 24
+      }
+    },
+    "URU": {
+      "name": "URU",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 72,
+        "military": 113,
+        "football": 15,
+        "eez": 196,
+        "rice": 34,
+        "francophones": 86
+      }
+    },
+    "KNA": {
+      "name": "Saint Kitts and Nevis",
+      "flag": "https://flagcdn.com/w80/kn.png",
+      "ranks": {
+        "small_area": 8,
+        "gdp": 204,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 196,
+        "eez": 142,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "HRV": {
+      "name": "Croatia",
+      "flag": "https://flagcdn.com/w80/hr.png",
+      "ranks": {
+        "small_area": 74,
+        "gdp": 74,
+        "capital_pop": 196,
+        "military": 95,
+        "football": 196,
+        "eez": 114,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "LSO": {
+      "name": "Lesotho",
+      "flag": "https://flagcdn.com/w80/ls.png",
+      "ranks": {
+        "small_area": 60,
+        "gdp": 190,
+        "capital_pop": 196,
+        "military": 67,
+        "football": 196,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "OMN": {
+      "name": "Oman",
+      "flag": "https://flagcdn.com/w80/om.png",
+      "ranks": {
+        "small_area": 128,
+        "gdp": 73,
+        "capital_pop": 196,
+        "military": 101,
+        "football": 196,
+        "eez": 50,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "MNG": {
+      "name": "Mongolia",
+      "flag": "https://flagcdn.com/w80/mn.png",
+      "ranks": {
+        "small_area": 180,
+        "gdp": 123,
+        "capital_pop": 67,
+        "military": 125,
+        "football": 185,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "GAB": {
+      "name": "Gabon",
+      "flag": "https://flagcdn.com/w80/ga.png",
+      "ranks": {
+        "small_area": 122,
+        "gdp": 130,
+        "capital_pop": 109,
+        "military": 61,
+        "football": 78,
+        "eez": 79,
+        "rice": 106,
+        "francophones": 33
+      }
+    },
+    "ARU": {
+      "name": "ARU",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 178,
+        "capital_pop": 187,
+        "military": 196,
+        "football": 193,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "PSE": {
+      "name": "Palestine, State of",
+      "flag": "https://flagcdn.com/w80/ps.png",
+      "ranks": {
+        "small_area": 33,
+        "gdp": 150,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 196,
+        "eez": 151,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "DJI": {
+      "name": "Djibouti",
+      "flag": "https://flagcdn.com/w80/dj.png",
+      "ranks": {
+        "small_area": 51,
+        "gdp": 175,
+        "capital_pop": 119,
+        "military": 73,
+        "football": 196,
+        "eez": 144,
+        "rice": 196,
+        "francophones": 49
+      }
+    },
+    "VAN": {
+      "name": "VAN",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 178,
+        "military": 196,
+        "football": 160,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 54
+      }
+    },
+    "COD": {
+      "name": "Congo, The Democratic Republic of the",
+      "flag": "https://flagcdn.com/w80/cd.png",
+      "ranks": {
+        "small_area": 187,
+        "gdp": 86,
+        "capital_pop": 4,
+        "military": 59,
+        "football": 56,
+        "eez": 147,
+        "rice": 29,
+        "francophones": 2
+      }
+    },
+    "GRD": {
+      "name": "Grenada",
+      "flag": "https://flagcdn.com/w80/gd.png",
+      "ranks": {
+        "small_area": 11,
+        "gdp": 201,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 196,
+        "eez": 128,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "SLB": {
+      "name": "Solomon Islands",
+      "flag": "https://flagcdn.com/w80/sb.png",
+      "ranks": {
+        "small_area": 58,
+        "gdp": 196,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 196,
+        "eez": 23,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "CAN": {
+      "name": "Canada",
+      "flag": "https://flagcdn.com/w80/ca.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 10,
+        "capital_pop": 90,
+        "military": 29,
+        "football": 28,
+        "eez": 7,
+        "rice": 196,
+        "francophones": 9
+      }
+    },
+    "VAT": {
+      "name": "Holy See (Vatican City State)",
+      "flag": "https://flagcdn.com/w80/va.png",
+      "ranks": {
+        "small_area": 1,
+        "gdp": 196,
+        "capital_pop": 215,
+        "military": 155,
+        "football": 196,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "CHA": {
+      "name": "CHA",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 100,
+        "military": 196,
+        "football": 178,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "TUN": {
+      "name": "Tunisia",
+      "flag": "https://flagcdn.com/w80/tn.png",
+      "ranks": {
+        "small_area": 107,
+        "gdp": 93,
+        "capital_pop": 115,
+        "military": 42,
+        "football": 41,
+        "eez": 103,
+        "rice": 196,
+        "francophones": 13
+      }
+    },
+    "DZA": {
+      "name": "Algeria",
+      "flag": "https://flagcdn.com/w80/dz.png",
+      "ranks": {
+        "small_area": 188,
+        "gdp": 51,
+        "capital_pop": 25,
+        "military": 40,
+        "football": 196,
+        "eez": 95,
+        "rice": 112,
+        "francophones": 3
+      }
+    },
+    "FIN": {
+      "name": "Finland",
+      "flag": "https://flagcdn.com/w80/fi.png",
+      "ranks": {
+        "small_area": 133,
+        "gdp": 49,
+        "capital_pop": 114,
+        "military": 111,
+        "football": 75,
+        "eez": 106,
+        "rice": 196,
+        "francophones": 45
+      }
+    },
+    "ALB": {
+      "name": "Albania",
+      "flag": "https://flagcdn.com/w80/al.png",
+      "ranks": {
+        "small_area": 57,
+        "gdp": 114,
+        "capital_pop": 124,
+        "military": 91,
+        "football": 63,
+        "eez": 136,
+        "rice": 196,
+        "francophones": 74
+      }
+    },
+    "PRT": {
+      "name": "Portugal",
+      "flag": "https://flagcdn.com/w80/pt.png",
+      "ranks": {
+        "small_area": 89,
+        "gdp": 47,
+        "capital_pop": 128,
+        "military": 109,
+        "football": 196,
+        "eez": 21,
+        "rice": 69,
+        "francophones": 27
+      }
+    },
+    "HKG": {
+      "name": "Hong Kong",
+      "flag": "https://flagcdn.com/w80/hk.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 39,
+        "capital_pop": 17,
+        "military": 196,
+        "football": 153,
+        "eez": 196,
+        "rice": 117,
+        "francophones": 196
+      }
+    },
+    "EST": {
+      "name": "Estonia",
+      "flag": "https://flagcdn.com/w80/ee.png",
+      "ranks": {
+        "small_area": 69,
+        "gdp": 102,
+        "capital_pop": 131,
+        "military": 133,
+        "football": 131,
+        "eez": 118,
+        "rice": 196,
+        "francophones": 79
+      }
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "flag": "https://flagcdn.com/w80/sa.png",
+      "ranks": {
+        "small_area": 186,
+        "gdp": 19,
+        "capital_pop": 16,
+        "military": 19,
+        "football": 196,
+        "eez": 76,
+        "rice": 111,
+        "francophones": 196
+      }
+    },
+    "LES": {
+      "name": "LES",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 141,
+        "military": 196,
+        "football": 144,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "CPV": {
+      "name": "Cabo Verde",
+      "flag": "https://flagcdn.com/w80/cv.png",
+      "ranks": {
+        "small_area": 30,
+        "gdp": 185,
+        "capital_pop": 158,
+        "military": 146,
+        "football": 68,
+        "eez": 37,
+        "rice": 196,
+        "francophones": 60
+      }
+    },
+    "BUL": {
+      "name": "BUL",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 73,
+        "military": 196,
+        "football": 88,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 63
+      }
+    },
+    "VIN": {
+      "name": "VIN",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 200,
+        "military": 196,
+        "football": 171,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "TOG": {
+      "name": "TOG",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 105,
+        "military": 129,
+        "football": 124,
+        "eez": 196,
+        "rice": 68,
+        "francophones": 22
+      }
+    },
+    "BHS": {
+      "name": "Bahamas",
+      "flag": "https://flagcdn.com/w80/bs.png",
+      "ranks": {
+        "small_area": 42,
+        "gdp": 143,
+        "capital_pop": 196,
+        "military": 145,
+        "football": 196,
+        "eez": 42,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "LVA": {
+      "name": "Latvia",
+      "flag": "https://flagcdn.com/w80/lv.png",
+      "ranks": {
+        "small_area": 76,
+        "gdp": 99,
+        "capital_pop": 118,
+        "military": 134,
+        "football": 140,
+        "eez": 127,
+        "rice": 196,
+        "francophones": 78
+      }
+    },
+    "BFA": {
+      "name": "Burkina Faso",
+      "flag": "https://flagcdn.com/w80/bf.png",
+      "ranks": {
+        "small_area": 124,
+        "gdp": 120,
+        "capital_pop": 44,
+        "military": 55,
+        "football": 62,
+        "eez": 196,
+        "rice": 51,
+        "francophones": 16
+      }
+    },
+    "FRO": {
+      "name": "Faroe Islands",
+      "flag": "https://flagcdn.com/w80/fo.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 179,
+        "capital_pop": 193,
+        "military": 196,
+        "football": 125,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "COL": {
+      "name": "Colombia",
+      "flag": "https://flagcdn.com/w80/co.png",
+      "ranks": {
+        "small_area": 173,
+        "gdp": 38,
+        "capital_pop": 18,
+        "military": 31,
+        "football": 13,
+        "eez": 36,
+        "rice": 24,
+        "francophones": 87
+      }
+    },
+    "SMR": {
+      "name": "San Marino",
+      "flag": "https://flagcdn.com/w80/sm.png",
+      "ranks": {
+        "small_area": 5,
+        "gdp": 193,
+        "capital_pop": 207,
+        "military": 196,
+        "football": 210,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "URY": {
+      "name": "Uruguay",
+      "flag": "https://flagcdn.com/w80/uy.png",
+      "ranks": {
+        "small_area": 109,
+        "gdp": 84,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 196,
+        "eez": 89,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "UGA": {
+      "name": "Uganda",
+      "flag": "https://flagcdn.com/w80/ug.png",
+      "ranks": {
+        "small_area": 119,
+        "gdp": 90,
+        "capital_pop": 64,
+        "military": 46,
+        "football": 84,
+        "eez": 196,
+        "rice": 44,
+        "francophones": 196
+      }
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "flag": "https://flagcdn.com/w80/nz.png",
+      "ranks": {
+        "small_area": 123,
+        "gdp": 55,
+        "capital_pop": 153,
+        "military": 127,
+        "football": 86,
+        "eez": 9,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "VNM": {
+      "name": "Viet Nam",
+      "flag": "https://flagcdn.com/w80/vn.png",
+      "ranks": {
+        "small_area": 132,
+        "gdp": 34,
+        "capital_pop": 14,
+        "military": 10,
+        "football": 196,
+        "eez": 57,
+        "rice": 5,
+        "francophones": 53
+      }
+    },
+    "MDV": {
+      "name": "Maldives",
+      "flag": "https://flagcdn.com/w80/mv.png",
+      "ranks": {
+        "small_area": 9,
+        "gdp": 163,
+        "capital_pop": 154,
+        "military": 196,
+        "football": 173,
+        "eez": 32,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "NCA": {
+      "name": "NCA",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 89,
+        "military": 196,
+        "football": 130,
+        "eez": 196,
+        "rice": 49,
+        "francophones": 196
+      }
+    },
+    "BRB": {
+      "name": "Barbados",
+      "flag": "https://flagcdn.com/w80/bb.png",
+      "ranks": {
+        "small_area": 13,
+        "gdp": 164,
+        "capital_pop": 168,
+        "military": 149,
+        "football": 175,
+        "eez": 80,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "COM": {
+      "name": "Comoros",
+      "flag": "https://flagcdn.com/w80/km.png",
+      "ranks": {
+        "small_area": 26,
+        "gdp": 199,
+        "capital_pop": 167,
+        "military": 72,
+        "football": 108,
+        "eez": 84,
+        "rice": 116,
+        "francophones": 59
+      }
+    },
+    "BIH": {
+      "name": "Bosnia and Herzegovina",
+      "flag": "https://flagcdn.com/w80/ba.png",
+      "ranks": {
+        "small_area": 73,
+        "gdp": 111,
+        "capital_pop": 146,
+        "military": 94,
+        "football": 71,
+        "eez": 154,
+        "rice": 196,
+        "francophones": 76
+      }
+    },
+    "SOM": {
+      "name": "Somalia",
+      "flag": "https://flagcdn.com/w80/so.png",
+      "ranks": {
+        "small_area": 155,
+        "gdp": 152,
+        "capital_pop": 46,
+        "military": 45,
+        "football": 200,
+        "eez": 35,
+        "rice": 107,
+        "francophones": 196
+      }
+    },
+    "SDN": {
+      "name": "Sudan",
+      "flag": "https://flagcdn.com/w80/sd.png",
+      "ranks": {
+        "small_area": 183,
+        "gdp": 110,
+        "capital_pop": 40,
+        "military": 44,
+        "football": 118,
+        "eez": 111,
+        "rice": 90,
+        "francophones": 196
+      }
+    },
+    "CGO": {
+      "name": "CGO",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 62,
+        "military": 196,
+        "football": 134,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 23
+      }
+    },
+    "AUS": {
+      "name": "Australia",
+      "flag": "https://flagcdn.com/w80/au.png",
+      "ranks": {
+        "small_area": 192,
+        "gdp": 15,
+        "capital_pop": 132,
+        "military": 30,
+        "football": 26,
+        "eez": 3,
+        "rice": 45,
+        "francophones": 196
+      }
+    },
+    "JAM": {
+      "name": "Jamaica",
+      "flag": "https://flagcdn.com/w80/jm.png",
+      "ranks": {
+        "small_area": 37,
+        "gdp": 127,
+        "capital_pop": 113,
+        "military": 137,
+        "football": 70,
+        "eez": 70,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "SLE": {
+      "name": "Sierra Leone",
+      "flag": "https://flagcdn.com/w80/sl.png",
+      "ranks": {
+        "small_area": 81,
+        "gdp": 162,
+        "capital_pop": 88,
+        "military": 77,
+        "football": 122,
+        "eez": 78,
+        "rice": 33,
+        "francophones": 196
+      }
+    },
+    "IND": {
+      "name": "India",
+      "flag": "https://flagcdn.com/w80/in.png",
+      "ranks": {
+        "small_area": 191,
+        "gdp": 5,
+        "capital_pop": 150,
+        "military": 1,
+        "football": 141,
+        "eez": 18,
+        "rice": 1,
+        "francophones": 196
+      }
+    },
+    "YEM": {
+      "name": "Yemen",
+      "flag": "https://flagcdn.com/w80/ye.png",
+      "ranks": {
+        "small_area": 144,
+        "gdp": 139,
+        "capital_pop": 42,
+        "military": 103,
+        "football": 148,
+        "eez": 48,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "AZE": {
+      "name": "Azerbaijan",
+      "flag": "https://flagcdn.com/w80/az.png",
+      "ranks": {
+        "small_area": 86,
+        "gdp": 88,
+        "capital_pop": 47,
+        "military": 100,
+        "football": 127,
+        "eez": 196,
+        "rice": 98,
+        "francophones": 196
+      }
+    },
     "GRC": {
       "name": "Greece",
       "flag": "https://flagcdn.com/w80/gr.png",
       "ranks": {
-        "small_area": 196,
-        "gdp": 48,
-        "capital_pop": 110,
-        "military": 42,
+        "small_area": 103,
+        "gdp": 53,
+        "capital_pop": 117,
+        "military": 90,
         "football": 196,
-        "eez": 19,
+        "eez": 54,
+        "rice": 64,
+        "francophones": 41
+      }
+    },
+    "HON": {
+      "name": "HON",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 68,
+        "military": 196,
+        "football": 67,
+        "eez": 196,
         "rice": 196,
         "francophones": 196
       }
@@ -2878,110 +3522,180 @@
       "name": "Japan",
       "flag": "https://flagcdn.com/w80/jp.png",
       "ranks": {
-        "small_area": 196,
-        "gdp": 3,
-        "capital_pop": 4,
-        "military": 27,
-        "football": 20,
-        "eez": 9,
-        "rice": 10,
+        "small_area": 136,
+        "gdp": 4,
+        "capital_pop": 2,
+        "military": 23,
+        "football": 18,
+        "eez": 8,
+        "rice": 12,
         "francophones": 196
       }
     },
-    "CUW": {
-      "name": "Curaçao",
-      "flag": "https://flagcdn.com/w80/cw.png",
+    "NCL": {
+      "name": "New Caledonia",
+      "flag": "https://flagcdn.com/w80/nc.png",
       "ranks": {
         "small_area": 196,
-        "gdp": 196,
-        "capital_pop": 154,
+        "gdp": 158,
+        "capital_pop": 172,
         "military": 196,
-        "football": 196,
+        "football": 149,
         "eez": 196,
         "rice": 196,
         "francophones": 196
       }
     },
-    "ESP": {
-      "name": "Spain",
-      "flag": "https://flagcdn.com/w80/es.png",
+    "LKA": {
+      "name": "Sri Lanka",
+      "flag": "https://flagcdn.com/w80/lk.png",
+      "ranks": {
+        "small_area": 78,
+        "gdp": 79,
+        "capital_pop": 169,
+        "military": 196,
+        "football": 196,
+        "eez": 52,
+        "rice": 21,
+        "francophones": 196
+      }
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "flag": "https://flagcdn.com/w80/nl.png",
+      "ranks": {
+        "small_area": 67,
+        "gdp": 18,
+        "capital_pop": 196,
+        "military": 81,
+        "football": 196,
+        "eez": 87,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "KGZ": {
+      "name": "Kyrgyzstan",
+      "flag": "https://flagcdn.com/w80/kg.png",
+      "ranks": {
+        "small_area": 113,
+        "gdp": 132,
+        "capital_pop": 87,
+        "military": 123,
+        "football": 104,
+        "eez": 196,
+        "rice": 87,
+        "francophones": 196
+      }
+    },
+    "LBN": {
+      "name": "Lebanon",
+      "flag": "https://flagcdn.com/w80/lb.png",
+      "ranks": {
+        "small_area": 36,
+        "gdp": 116,
+        "capital_pop": 137,
+        "military": 196,
+        "football": 107,
+        "eez": 133,
+        "rice": 196,
+        "francophones": 28
+      }
+    },
+    "NAM": {
+      "name": "Namibia",
+      "flag": "https://flagcdn.com/w80/na.png",
+      "ranks": {
+        "small_area": 164,
+        "gdp": 149,
+        "capital_pop": 133,
+        "military": 65,
+        "football": 119,
+        "eez": 47,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "TGA": {
+      "name": "TGA",
+      "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
-        "gdp": 13,
-        "capital_pop": 28,
-        "military": 32,
+        "gdp": 196,
+        "capital_pop": 189,
+        "military": 196,
+        "football": 197,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "CMR": {
+      "name": "Cameroon",
+      "flag": "https://flagcdn.com/w80/cm.png",
+      "ranks": {
+        "small_area": 146,
+        "gdp": 91,
+        "capital_pop": 38,
+        "military": 58,
+        "football": 57,
+        "eez": 134,
+        "rice": 58,
+        "francophones": 36
+      }
+    },
+    "BAH": {
+      "name": "BAH",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 147,
+        "military": 196,
+        "football": 203,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "OMA": {
+      "name": "OMA",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 74,
+        "military": 196,
+        "football": 79,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "CRO": {
+      "name": "CRO",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 108,
+        "military": 196,
         "football": 10,
         "eez": 196,
         "rice": 196,
         "francophones": 196
       }
     },
-    "SAU": {
-      "name": "Saudi Arabia",
-      "flag": "https://flagcdn.com/w80/sa.png",
+    "VCT": {
+      "name": "Saint Vincent and the Grenadines",
+      "flag": "https://flagcdn.com/w80/vc.png",
       "ranks": {
-        "small_area": 196,
-        "gdp": 18,
-        "capital_pop": 17,
-        "military": 25,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "USA": {
-      "name": "United States",
-      "flag": "https://flagcdn.com/w80/us.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 1,
-        "capital_pop": 107,
-        "military": 5,
-        "football": 13,
-        "eez": 2,
-        "rice": 13,
-        "francophones": 196
-      }
-    },
-    "OMN": {
-      "name": "Oman",
-      "flag": "https://flagcdn.com/w80/om.png",
-      "ranks": {
-        "small_area": 196,
-        "gdp": 60,
-        "capital_pop": 67,
-        "military": 72,
-        "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "CCK": {
-      "name": "Cocos (Keeling) Islands",
-      "flag": "https://flagcdn.com/w80/cc.png",
-      "ranks": {
-        "small_area": 5,
-        "gdp": 196,
+        "small_area": 12,
+        "gdp": 203,
         "capital_pop": 196,
         "military": 196,
         "football": 196,
-        "eez": 196,
-        "rice": 196,
-        "francophones": 196
-      }
-    },
-    "BHS": {
-      "name": "Bahamas",
-      "flag": "https://flagcdn.com/w80/bs.png",
-      "ranks": {
-        "small_area": 57,
-        "gdp": 196,
-        "capital_pop": 146,
-        "military": 154,
-        "football": 196,
-        "eez": 196,
+        "eez": 119,
         "rice": 196,
         "francophones": 196
       }
@@ -2990,13 +3704,111 @@
       "name": "Israel",
       "flag": "https://flagcdn.com/w80/il.png",
       "ranks": {
-        "small_area": 61,
-        "gdp": 30,
-        "capital_pop": 100,
-        "military": 36,
+        "small_area": 49,
+        "gdp": 27,
+        "capital_pop": 98,
+        "military": 196,
+        "football": 77,
+        "eez": 129,
+        "rice": 196,
+        "francophones": 48
+      }
+    },
+    "TWN": {
+      "name": "Taiwan, Province of China",
+      "flag": "https://flagcdn.com/w80/tw.png",
+      "ranks": {
+        "small_area": 63,
+        "gdp": 22,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 196,
+        "eez": 107,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "POL": {
+      "name": "Poland",
+      "flag": "https://flagcdn.com/w80/pl.png",
+      "ranks": {
+        "small_area": 129,
+        "gdp": 20,
+        "capital_pop": 56,
+        "military": 27,
+        "football": 31,
+        "eez": 125,
+        "rice": 196,
+        "francophones": 35
+      }
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "flag": "https://flagcdn.com/w80/ch.png",
+      "ranks": {
+        "small_area": 66,
+        "gdp": 21,
+        "capital_pop": 163,
+        "military": 83,
         "football": 196,
         "eez": 196,
         "rice": 196,
+        "francophones": 14
+      }
+    },
+    "ZIM": {
+      "name": "ZIM",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 52,
+        "military": 196,
+        "football": 128,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "ARM": {
+      "name": "Armenia",
+      "flag": "https://flagcdn.com/w80/am.png",
+      "ranks": {
+        "small_area": 59,
+        "gdp": 117,
+        "capital_pop": 85,
+        "military": 99,
+        "football": 106,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 83
+      }
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "flag": "https://flagcdn.com/w80/ec.png",
+      "ranks": {
+        "small_area": 125,
+        "gdp": 65,
+        "capital_pop": 36,
+        "military": 102,
+        "football": 23,
+        "eez": 30,
+        "rice": 36,
+        "francophones": 196
+      }
+    },
+    "ZMB": {
+      "name": "Zambia",
+      "flag": "https://flagcdn.com/w80/zm.png",
+      "ranks": {
+        "small_area": 160,
+        "gdp": 115,
+        "capital_pop": 196,
+        "military": 49,
+        "football": 196,
+        "eez": 196,
+        "rice": 82,
         "francophones": 196
       }
     },
@@ -3004,64 +3816,148 @@
       "name": "Gibraltar",
       "flag": "https://flagcdn.com/w80/gi.png",
       "ranks": {
-        "small_area": 3,
+        "small_area": 196,
         "gdp": 196,
-        "capital_pop": 196,
+        "capital_pop": 184,
         "military": 196,
-        "football": 196,
+        "football": 202,
         "eez": 196,
         "rice": 196,
         "francophones": 196
       }
     },
-    "ALG": {
-      "name": "ALG",
+    "NEP": {
+      "name": "NEP",
       "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
-        "gdp": 50,
+        "gdp": 196,
         "capital_pop": 196,
         "military": 196,
-        "football": 196,
+        "football": 182,
         "eez": 196,
         "rice": 196,
         "francophones": 196
       }
     },
-    "SDN": {
-      "name": "Sudan",
-      "flag": "https://flagcdn.com/w80/sd.png",
+    "BHU": {
+      "name": "BHU",
+      "flag": "https://flagcdn.com/w80/xx.png",
       "ranks": {
         "small_area": 196,
         "gdp": 196,
-        "capital_pop": 24,
-        "military": 43,
-        "football": 196,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 192,
         "eez": 196,
         "rice": 196,
         "francophones": 196
       }
     },
-    "RWA": {
-      "name": "Rwanda",
-      "flag": "https://flagcdn.com/w80/rw.png",
+    "SRB": {
+      "name": "Serbia",
+      "flag": "https://flagcdn.com/w80/rs.png",
       "ranks": {
-        "small_area": 63,
-        "gdp": 99,
+        "small_area": 87,
+        "gdp": 77,
+        "capital_pop": 63,
+        "military": 93,
+        "football": 37,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 67
+      }
+    },
+    "GEO": {
+      "name": "Georgia",
+      "flag": "https://flagcdn.com/w80/ge.png",
+      "ranks": {
+        "small_area": 79,
+        "gdp": 107,
         "capital_pop": 77,
-        "military": 84,
-        "football": 196,
-        "eez": 196,
+        "military": 98,
+        "football": 73,
+        "eez": 132,
         "rice": 196,
-        "francophones": 13
+        "francophones": 80
       }
     },
-    "TON": {
-      "name": "Tonga",
-      "flag": "https://flagcdn.com/w80/to.png",
+    "ZWE": {
+      "name": "Zimbabwe",
+      "flag": "https://flagcdn.com/w80/zw.png",
       "ranks": {
-        "small_area": 32,
+        "small_area": 138,
+        "gdp": 96,
+        "capital_pop": 196,
+        "military": 50,
+        "football": 196,
+        "eez": 196,
+        "rice": 105,
+        "francophones": 196
+      }
+    },
+    "GUA": {
+      "name": "GUA",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
         "gdp": 196,
+        "capital_pop": 31,
+        "military": 196,
+        "football": 95,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "PLW": {
+      "name": "Palau",
+      "flag": "https://flagcdn.com/w80/pw.png",
+      "ranks": {
+        "small_area": 16,
+        "gdp": 215,
+        "capital_pop": 216,
+        "military": 196,
+        "football": 196,
+        "eez": 43,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "GUM": {
+      "name": "Guam",
+      "flag": "https://flagcdn.com/w80/gu.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 168,
+        "capital_pop": 211,
+        "military": 196,
+        "football": 201,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "ZAM": {
+      "name": "ZAM",
+      "flag": "https://flagcdn.com/w80/xx.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 196,
+        "capital_pop": 39,
+        "military": 196,
+        "football": 90,
+        "eez": 196,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "GRL": {
+      "name": "Greenland",
+      "flag": "https://flagcdn.com/w80/gl.png",
+      "ranks": {
+        "small_area": 196,
+        "gdp": 181,
         "capital_pop": 196,
         "military": 196,
         "football": 196,
@@ -3070,31 +3966,87 @@
         "francophones": 196
       }
     },
-    "AUS": {
-      "name": "Australia",
-      "flag": "https://flagcdn.com/w80/au.png",
+    "ASM": {
+      "name": "American Samoa",
+      "flag": "https://flagcdn.com/w80/as.png",
       "ranks": {
         "small_area": 196,
-        "gdp": 14,
-        "capital_pop": 128,
-        "military": 64,
+        "gdp": 196,
+        "capital_pop": 209,
+        "military": 196,
         "football": 196,
-        "eez": 3,
+        "eez": 196,
         "rice": 196,
         "francophones": 196
       }
     },
-    "BGD": {
-      "name": "Bangladesh",
-      "flag": "https://flagcdn.com/w80/bd.png",
+    "LBR": {
+      "name": "Liberia",
+      "flag": "https://flagcdn.com/w80/lr.png",
       "ranks": {
-        "small_area": 196,
-        "gdp": 56,
-        "capital_pop": 2,
-        "military": 29,
+        "small_area": 96,
+        "gdp": 172,
+        "capital_pop": 92,
+        "military": 78,
+        "football": 142,
+        "eez": 72,
+        "rice": 59,
+        "francophones": 196
+      }
+    },
+    "CRI": {
+      "name": "Costa Rica",
+      "flag": "https://flagcdn.com/w80/cr.png",
+      "ranks": {
+        "small_area": 72,
+        "gdp": 75,
+        "capital_pop": 196,
+        "military": 196,
         "football": 196,
-        "eez": 196,
-        "rice": 4,
+        "eez": 46,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "TGO": {
+      "name": "Togo",
+      "flag": "https://flagcdn.com/w80/tg.png",
+      "ranks": {
+        "small_area": 75,
+        "gdp": 156,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 196,
+        "eez": 137,
+        "rice": 196,
+        "francophones": 196
+      }
+    },
+    "ARE": {
+      "name": "United Arab Emirates",
+      "flag": "https://flagcdn.com/w80/ae.png",
+      "ranks": {
+        "small_area": 84,
+        "gdp": 29,
+        "capital_pop": 196,
+        "military": 196,
+        "football": 196,
+        "eez": 115,
+        "rice": 196,
+        "francophones": 50
+      }
+    },
+    "PNG": {
+      "name": "Papua New Guinea",
+      "flag": "https://flagcdn.com/w80/pg.png",
+      "ranks": {
+        "small_area": 145,
+        "gdp": 112,
+        "capital_pop": 135,
+        "military": 138,
+        "football": 169,
+        "eez": 16,
+        "rice": 110,
         "francophones": 196
       }
     }
