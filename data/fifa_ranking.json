@@ -1,0 +1,26 @@
+{
+  "ranks": {
+    "ARG": 1,
+    "FRA": 2,
+    "BRA": 3,
+    "ENG": 4,
+    "BEL": 5,
+    "CRO": 6,
+    "NED": 7,
+    "POR": 8,
+    "ITA": 9,
+    "ESP": 10,
+    "MAR": 11,
+    "SUI": 12,
+    "USA": 13,
+    "GER": 14,
+    "MEX": 15,
+    "URU": 16,
+    "COL": 17,
+    "SEN": 18,
+    "DEN": 19,
+    "JPN": 20
+  },
+  "note": "Snapshot du classement FIFA - à mettre à jour mensuellement"
+}
+

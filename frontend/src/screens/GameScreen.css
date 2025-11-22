@@ -1,0 +1,403 @@
+.game-screen {
+  width: 100%;
+  max-width: 1000px;
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+/* Scrollbar personnalisée pour les catégories */
+.categories-grid::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.categories-grid::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.categories-grid::-webkit-scrollbar-thumb {
+  background: #667eea;
+  border-radius: 10px;
+}
+
+.categories-grid::-webkit-scrollbar-thumb:hover {
+  background: #764ba2;
+}
+
+.game-header {
+  margin-bottom: 30px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  transition: width 0.3s ease;
+}
+
+.score {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #667eea;
+}
+
+.current-country {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 30px;
+  background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+  border-radius: 15px;
+}
+
+.country-flag {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag-image {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.current-country h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.country-flag-inline {
+  width: 40px;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.country-hint {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  max-height: calc(100vh - 400px);
+  overflow-y: auto;
+}
+
+.category-card {
+  background: white;
+  border: 3px solid #e0e0e0;
+  border-radius: 15px;
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.category-card.available {
+  border-color: #667eea;
+}
+
+.category-card.available:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+  border-color: #764ba2;
+}
+
+.category-card.assigned {
+  border-color: #4caf50;
+  background: #f1f8f4;
+  cursor: not-allowed;
+}
+
+.category-emoji {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.category-name {
+  font-weight: bold;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.assigned-info {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 2px solid #4caf50;
+  width: 100%;
+}
+
+.assigned-flag {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag-image-small {
+  width: 48px;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.assigned-name {
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.flag-inline {
+  width: 20px;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+  border-radius: 2px;
+}
+
+.assigned-rank {
+  font-size: 0.85rem;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .game-screen {
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  .game-header {
+    margin-bottom: 15px;
+  }
+
+  .score {
+    font-size: 0.95rem;
+  }
+
+  .current-country {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .current-country h2 {
+    font-size: 1.4rem;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .flag-image {
+    width: 70px;
+  }
+  
+  .country-flag-inline {
+    width: 28px;
+  }
+
+  .country-hint {
+    font-size: 0.95rem;
+  }
+
+  .categories-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-height: none;
+    overflow-y: visible;
+  }
+
+  .category-card {
+    padding: 12px 8px;
+    min-height: 110px;
+  }
+
+  .category-emoji {
+    font-size: 1.8rem;
+    margin-bottom: 6px;
+  }
+
+  .category-name {
+    font-size: 0.75rem;
+    line-height: 1.2;
+  }
+
+  .assigned-info {
+    margin-top: 8px;
+    padding-top: 8px;
+  }
+
+  .assigned-flag {
+    margin-bottom: 5px;
+  }
+
+  .flag-image-small {
+    width: 32px;
+  }
+
+  .assigned-name {
+    font-size: 0.7rem;
+    gap: 4px;
+  }
+
+  .flag-inline {
+    width: 16px;
+  }
+
+  .assigned-rank {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .game-screen {
+    padding: 10px;
+  }
+
+  .game-header {
+    margin-bottom: 12px;
+  }
+
+  .progress-bar {
+    height: 8px;
+    margin-bottom: 10px;
+  }
+
+  .score {
+    font-size: 0.85rem;
+  }
+
+  .current-country {
+    padding: 12px;
+    margin-bottom: 15px;
+  }
+
+  .current-country h2 {
+    font-size: 1.2rem;
+    gap: 6px;
+  }
+
+  .flag-image {
+    width: 50px;
+  }
+
+  .country-flag-inline {
+    width: 22px;
+  }
+
+  .country-hint {
+    font-size: 0.85rem;
+  }
+
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    max-height: none;
+  }
+
+  .category-card {
+    min-height: 100px;
+    padding: 10px 6px;
+  }
+
+  .category-emoji {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+
+  .category-name {
+    font-size: 0.7rem;
+    line-height: 1.1;
+  }
+
+  .assigned-info {
+    margin-top: 6px;
+    padding-top: 6px;
+    border-top-width: 1px;
+  }
+
+  .assigned-flag {
+    margin-bottom: 4px;
+  }
+
+  .flag-image-small {
+    width: 28px;
+  }
+
+  .assigned-name {
+    font-size: 0.65rem;
+    gap: 3px;
+    margin-bottom: 3px;
+  }
+
+  .flag-inline {
+    width: 14px;
+  }
+
+  .assigned-rank {
+    font-size: 0.65rem;
+  }
+}
+
+/* Pour les très petits écrans (landscape mobile) */
+@media (max-width: 480px) and (orientation: landscape) {
+  .categories-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+  }
+
+  .category-card {
+    min-height: 90px;
+    padding: 8px 4px;
+  }
+
+  .current-country {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .flag-image {
+    width: 40px;
+  }
+}
+

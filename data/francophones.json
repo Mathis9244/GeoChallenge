@@ -1,0 +1,26 @@
+{
+  "ranks": {
+    "FRA": 1,
+    "COD": 2,
+    "CAF": 3,
+    "CMR": 4,
+    "CIV": 5,
+    "MAD": 6,
+    "BFA": 7,
+    "MLI": 8,
+    "NGA": 9,
+    "SEN": 10,
+    "TCD": 11,
+    "GIN": 12,
+    "RWA": 13,
+    "BEL": 14,
+    "BEN": 15,
+    "TUN": 16,
+    "HAI": 17,
+    "CHE": 18,
+    "CAN": 19,
+    "GAB": 20
+  },
+  "note": "Rangs basés sur le nombre de francophones par pays"
+}
+

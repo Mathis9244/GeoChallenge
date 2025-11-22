@@ -1,0 +1,26 @@
+{
+  "ranks": {
+    "CHN": 1,
+    "IND": 2,
+    "IDN": 3,
+    "BGD": 4,
+    "VNM": 5,
+    "THA": 6,
+    "MMR": 7,
+    "PHL": 8,
+    "BRA": 9,
+    "JPN": 10,
+    "PAK": 11,
+    "KHM": 12,
+    "USA": 13,
+    "KOR": 14,
+    "NGA": 15,
+    "EGY": 16,
+    "NPL": 17,
+    "LAO": 18,
+    "TZA": 19,
+    "MYS": 20
+  },
+  "note": "Rangs basés sur la production de riz en tonnes"
+}
+

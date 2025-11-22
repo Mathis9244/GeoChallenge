@@ -1,0 +1,26 @@
+{
+  "ranks": {
+    "FRA": 1,
+    "USA": 2,
+    "AUS": 3,
+    "RUS": 4,
+    "IDN": 5,
+    "NZL": 6,
+    "CAN": 7,
+    "GBR": 8,
+    "JPN": 9,
+    "CHN": 10,
+    "BRA": 11,
+    "MEX": 12,
+    "CHL": 13,
+    "NOR": 14,
+    "IND": 15,
+    "PHL": 16,
+    "ARG": 17,
+    "ZAF": 18,
+    "GRC": 19,
+    "TUR": 20
+  },
+  "note": "Rangs basés sur la taille de la Zone Économique Exclusive (ZEE)"
+}
+
