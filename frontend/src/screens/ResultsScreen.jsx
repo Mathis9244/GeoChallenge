@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
+import ShareModal from '../components/ShareModal'
+import Confetti from '../components/Confetti'
 import './ResultsScreen.css'
 
 const CATEGORY_NAMES = {
@@ -13,7 +15,102 @@ const CATEGORY_NAMES = {
 }
 
 function ResultsScreen({ gameData, snapshot, personalBest, isNewRecord, onReplay, onShowLeaderboard }) {
-  const { results, score } = gameData
+  const { results, score, duration } = gameData
+  const [showShareModal, setShowShareModal] = useState(false)
+  
+  // Calculer le score optimal (minimal), maximal et minimal théoriques
+  const scoreAnalysis = React.useMemo(() => {
+    if (!snapshot || !gameData.countries) return null
+    
+    const countries = gameData.countries
+    const availableCategories = gameData.availableCategories || 
+      ['small_area', 'gdp', 'capital_pop', 'military', 'football', 'eez', 'rice', 'francophones']
+    const categories = availableCategories
+    
+    // Score optimal (minimal) - meilleur placement possible
+    const optimalAssignments = {}
+    const usedCategoriesOptimal = new Set()
+    
+    countries.forEach(country => {
+      const countryData = snapshot.countries[country]
+      if (!countryData) return
+      
+      let bestCategory = null
+      let bestRank = Infinity
+      
+      categories.forEach(category => {
+        if (!usedCategoriesOptimal.has(category)) {
+          const rank = countryData.ranks[category] || 196
+          if (rank < bestRank) {
+            bestRank = rank
+            bestCategory = category
+          }
+        }
+      })
+      
+      if (bestCategory) {
+        optimalAssignments[country] = { category: bestCategory, rank: bestRank }
+        usedCategoriesOptimal.add(bestCategory)
+      }
+    })
+    
+    const optimal = Object.values(optimalAssignments).reduce((sum, item) => sum + item.rank, 0)
+    
+    // Score maximal (pire placement possible)
+    const worstAssignments = {}
+    const usedCategoriesWorst = new Set()
+    
+    // Trier les pays par ordre de difficulté (pays avec les meilleurs rangs en moyenne d'abord)
+    const countriesWithData = countries.map(country => {
+      const countryData = snapshot.countries[country]
+      if (!countryData) return null
+      const avgRank = categories.reduce((sum, cat) => sum + (countryData.ranks[cat] || 196), 0) / categories.length
+      return { country, avgRank, data: countryData }
+    }).filter(Boolean).sort((a, b) => a.avgRank - b.avgRank)
+    
+    // Pour chaque pays, trouver sa pire catégorie disponible
+    countriesWithData.forEach(({ country, data: countryData }) => {
+      let worstCategory = null
+      let worstRank = -1
+      
+      categories.forEach(category => {
+        if (!usedCategoriesWorst.has(category)) {
+          const rank = countryData.ranks[category] || 196
+          if (rank > worstRank) {
+            worstRank = rank
+            worstCategory = category
+          }
+        }
+      })
+      
+      if (worstCategory) {
+        worstAssignments[country] = { category: worstCategory, rank: worstRank }
+        usedCategoriesWorst.add(worstCategory)
+      }
+    })
+    
+    const worst = Object.values(worstAssignments).reduce((sum, item) => sum + item.rank, 0)
+    
+    // Score minimal absolu (somme des meilleurs rangs de chaque pays, sans contrainte de catégorie unique)
+    const allBestRanks = countries.map(country => {
+      const countryData = snapshot.countries[country]
+      if (!countryData) return 196
+      const ranks = categories.map(cat => countryData.ranks[cat] || 196)
+      return Math.min(...ranks)
+    })
+    const absoluteMin = allBestRanks.reduce((sum, rank) => sum + rank, 0)
+    
+    return {
+      optimal, // Score optimal avec contraintes (1 pays par catégorie)
+      worst,   // Score maximal (pire placement)
+      absoluteMin // Score minimal absolu (sans contraintes)
+    }
+  }, [snapshot, gameData])
+  
+  const optimalScore = scoreAnalysis?.optimal
+  const worstScore = scoreAnalysis?.worst
+  const absoluteMinScore = scoreAnalysis?.absoluteMin
+  const efficiency = optimalScore ? Math.round((optimalScore / score) * 100) : null
   
   const getScoreColor = (score) => {
     if (score <= 50) return '#4caf50' // Excellent
@@ -29,6 +126,7 @@ function ResultsScreen({ gameData, snapshot, personalBest, isNewRecord, onReplay
 
   return (
     <div className="results-screen">
+      <Confetti trigger={isNewRecord} />
       <div className="results-card">
         <h1 className="results-title">Résultats</h1>
         
@@ -45,6 +143,40 @@ function ResultsScreen({ gameData, snapshot, personalBest, isNewRecord, onReplay
             <div className="personal-best-display">
               <span className="pb-label">Meilleur score: </span>
               <span className="pb-value">{personalBest} points</span>
+            </div>
+          )}
+          {scoreAnalysis && (
+            <div className="score-analysis">
+              <div className="score-analysis-title">📊 Analyse des scores possibles</div>
+              <div className="score-analysis-grid">
+                <div className="score-analysis-item">
+                  <div className="score-analysis-label">Score minimal</div>
+                  <div className="score-analysis-value score-min">{absoluteMinScore} pts</div>
+                  <div className="score-analysis-desc">Meilleur possible (sans contraintes)</div>
+                </div>
+                <div className="score-analysis-item">
+                  <div className="score-analysis-label">Score optimal</div>
+                  <div className="score-analysis-value score-optimal">{optimalScore} pts</div>
+                  <div className="score-analysis-desc">Meilleur possible (avec contraintes)</div>
+                </div>
+                <div className="score-analysis-item">
+                  <div className="score-analysis-label">Votre score</div>
+                  <div className="score-analysis-value score-current" style={{ color: getScoreColor(score) }}>{score} pts</div>
+                  <div className="score-analysis-desc">
+                    {efficiency && `Efficacité: ${efficiency}%`}
+                  </div>
+                </div>
+                <div className="score-analysis-item">
+                  <div className="score-analysis-label">Score maximal</div>
+                  <div className="score-analysis-value score-max">{worstScore} pts</div>
+                  <div className="score-analysis-desc">Pire possible</div>
+                </div>
+              </div>
+            </div>
+          )}
+          {duration && (
+            <div className="duration-display">
+              ⏱️ Temps: {Math.round(duration / 1000)}s
             </div>
           )}
         </div>
@@ -101,17 +233,24 @@ function ResultsScreen({ gameData, snapshot, personalBest, isNewRecord, onReplay
           </button>
           <button 
             className="share-button" 
-            onClick={() => {
-              const text = `J'ai obtenu ${score} points au Géo Challenge ! 🌍`
-              navigator.clipboard?.writeText(text).then(() => {
-                alert('Score copié dans le presse-papier !')
-              })
-            }}
+            onClick={() => setShowShareModal(true)}
           >
             Partager
           </button>
         </div>
       </div>
+      
+      {showShareModal && (
+        <ShareModal
+          gameData={gameData}
+          score={score}
+          personalBest={personalBest}
+          isNewRecord={isNewRecord}
+          optimalScore={optimalScore}
+          efficiency={efficiency}
+          onClose={() => setShowShareModal(false)}
+        />
+      )}
     </div>
   )
 }

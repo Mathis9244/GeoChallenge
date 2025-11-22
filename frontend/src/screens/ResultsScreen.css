@@ -3,6 +3,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: screen-slide-in 0.4s ease;
+}
+
+@keyframes screen-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .results-card {
@@ -84,6 +96,108 @@
 .pb-value {
   color: #667eea;
   font-weight: bold;
+}
+
+.optimal-score-display {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(102, 126, 234, 0.2);
+  font-size: 0.95rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.optimal-label {
+  color: #666;
+}
+
+.optimal-value {
+  color: #ff9800;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.score-analysis {
+  margin-top: 20px;
+  padding: 20px;
+  background: rgba(102, 126, 234, 0.05);
+  border-radius: 15px;
+  border: 2px solid rgba(102, 126, 234, 0.2);
+}
+
+.score-analysis-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #667eea;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.score-analysis-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.score-analysis-item {
+  text-align: center;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid rgba(102, 126, 234, 0.1);
+}
+
+.score-analysis-label {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.score-analysis-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.score-min {
+  color: #4caf50;
+}
+
+.score-optimal {
+  color: #ff9800;
+}
+
+.score-current {
+  color: #667eea;
+}
+
+.score-max {
+  color: #f44336;
+}
+
+.score-analysis-desc {
+  font-size: 0.75rem;
+  color: #999;
+  margin-top: 5px;
+}
+
+.efficiency-badge {
+  background: linear-gradient(135deg, #ff980015 0%, #ff572215 100%);
+  color: #ff9800;
+  padding: 5px 15px;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: 1px solid #ff9800;
+}
+
+.duration-display {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #666;
 }
 
 .results-table {
@@ -234,6 +348,19 @@ tbody tr:hover {
     font-size: 1.2rem;
   }
 
+  .score-analysis-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .score-analysis-item {
+    padding: 12px;
+  }
+
+  .score-analysis-value {
+    font-size: 1.5rem;
+  }
+
   .new-record-badge {
     font-size: 1rem;
     padding: 8px 16px;
@@ -318,5 +445,37 @@ tbody tr:hover {
   .points-cell {
     font-size: 0.8rem;
   }
+
+  .score-analysis-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .score-analysis-item {
+    padding: 12px;
+  }
+
+  .score-analysis-value {
+    font-size: 1.5rem;
+  }
+}
+
+/* Thème sombre pour score-analysis */
+[data-theme="dark"] .score-analysis {
+  background: rgba(102, 126, 234, 0.1);
+  border-color: rgba(102, 126, 234, 0.3);
+}
+
+[data-theme="dark"] .score-analysis-item {
+  background: #1a1a2e;
+  border-color: rgba(102, 126, 234, 0.2);
+}
+
+[data-theme="dark"] .score-analysis-label {
+  color: #c0c0c0;
+}
+
+[data-theme="dark"] .score-analysis-desc {
+  color: #999;
 }
 

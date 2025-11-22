@@ -14,6 +14,514 @@ body {
   min-height: 100vh;
   color: #333;
   overflow-x: hidden;
+  transition: background 0.3s ease;
+}
+
+/* Thème sombre */
+[data-theme="dark"] body {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: #f5f5f5;
+}
+
+[data-theme="dark"] .home-card,
+[data-theme="dark"] .game-screen,
+[data-theme="dark"] .results-card,
+[data-theme="dark"] .leaderboard-card,
+[data-theme="dark"] .stats-card,
+[data-theme="dark"] .settings-card {
+  background: #2d2d44;
+  color: #f5f5f5;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+/* Titres et textes principaux */
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3 {
+  color: #ffffff;
+}
+
+/* Titres avec gradient - amélioration pour thème sombre */
+[data-theme="dark"] .title,
+[data-theme="dark"] .results-title,
+[data-theme="dark"] .stats-title,
+[data-theme="dark"] .settings-title {
+  background: linear-gradient(135deg, #8b9aff 0%, #b19aff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: brightness(1.2);
+}
+
+[data-theme="dark"] .subtitle {
+  color: #d0d0d0;
+}
+
+[data-theme="dark"] .subtitle {
+  color: #d0d0d0;
+}
+
+[data-theme="dark"] .rules,
+[data-theme="dark"] .category-stat-item,
+[data-theme="dark"] .history-item,
+[data-theme="dark"] .chart-section {
+  background: #1a1a2e;
+  color: #f5f5f5;
+}
+
+[data-theme="dark"] .rules h2 {
+  color: #ffffff;
+}
+
+[data-theme="dark"] .rules li {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .rules li:before {
+  color: #8b9aff;
+}
+
+/* Boutons */
+[data-theme="dark"] .play-button,
+[data-theme="dark"] .replay-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .secondary-button,
+[data-theme="dark"] .leaderboard-button {
+  background: #2d2d44;
+  color: #8b9aff;
+  border-color: #667eea;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .secondary-button:hover,
+[data-theme="dark"] .leaderboard-button:hover {
+  background: #3d3d54;
+  color: #a5b3ff;
+}
+
+/* Scores et valeurs */
+[data-theme="dark"] .score,
+[data-theme="dark"] .score-value,
+[data-theme="dark"] .pb-value,
+[data-theme="dark"] .stat-value,
+[data-theme="dark"] .level-badge {
+  color: #8b9aff;
+  font-weight: 700;
+}
+
+[data-theme="dark"] .pb-label,
+[data-theme="dark"] .stat-label,
+[data-theme="dark"] .score-label {
+  color: #c0c0c0;
+}
+
+[data-theme="dark"] .personal-best {
+  background: rgba(102, 126, 234, 0.15);
+  border-color: #667eea;
+  color: #f5f5f5;
+}
+
+/* Catégories */
+[data-theme="dark"] .category-card.available {
+  background: #1a1a2e;
+  border-color: #667eea;
+  color: #f5f5f5;
+}
+
+[data-theme="dark"] .category-card.available .category-name {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .category-card.assigned {
+  background: #2d2d44;
+  border-color: #4caf50;
+  color: #f5f5f5;
+}
+
+[data-theme="dark"] .category-card.assigned .category-name,
+[data-theme="dark"] .category-card.assigned .assigned-name {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .assigned-rank {
+  color: #4caf50;
+  font-weight: 700;
+}
+
+/* Pays actuel */
+[data-theme="dark"] .current-country h2 {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+[data-theme="dark"] .country-hint {
+  color: #c0c0c0;
+}
+
+/* Tableaux */
+[data-theme="dark"] .table-container table {
+  background: #1a1a2e;
+}
+
+[data-theme="dark"] .table-container th {
+  background: #2d2d44;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .table-container td {
+  color: #f5f5f5;
+  border-color: #2d2d44;
+}
+
+[data-theme="dark"] .table-container tr:hover {
+  background: #2d2d44;
+}
+
+[data-theme="dark"] .category-cell,
+[data-theme="dark"] .country-cell {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .rank-cell,
+[data-theme="dark"] .points-cell {
+  color: #8b9aff;
+  font-weight: 600;
+}
+
+/* Timer */
+[data-theme="dark"] .timer {
+  color: #4caf50;
+  background: rgba(76, 175, 80, 0.15);
+  border-color: #4caf50;
+  font-weight: 700;
+}
+
+[data-theme="dark"] .timer.timer-warning {
+  color: #ff6b6b;
+  background: rgba(255, 107, 107, 0.15);
+  border-color: #ff6b6b;
+}
+
+/* Statistiques */
+[data-theme="dark"] .category-stat-name {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .category-stat-count {
+  color: #c0c0c0;
+}
+
+[data-theme="dark"] .category-stat-details span {
+  color: #d0d0d0;
+}
+
+[data-theme="dark"] .history-score {
+  color: #8b9aff;
+  font-weight: 700;
+}
+
+[data-theme="dark"] .history-date {
+  color: #c0c0c0;
+}
+
+/* Graphiques */
+[data-theme="dark"] .chart-value {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .chart-section h2 {
+  color: #ffffff;
+}
+
+/* Paramètres */
+[data-theme="dark"] .settings-section h2 {
+  color: #ffffff;
+}
+
+[data-theme="dark"] .setting-label {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .setting-hint {
+  color: #c0c0c0;
+}
+
+[data-theme="dark"] .setting-checkbox {
+  color: #f5f5f5;
+}
+
+[data-theme="dark"] .category-select-name {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .category-select-button.selected {
+  background: rgba(76, 175, 80, 0.2);
+  border-color: #4caf50;
+  color: #ffffff;
+}
+
+[data-theme="dark"] .save-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .save-button.saved {
+  background: #4caf50;
+}
+
+/* Score optimal et efficacité */
+[data-theme="dark"] .optimal-value {
+  color: #ffb84d;
+  font-weight: 700;
+}
+
+[data-theme="dark"] .optimal-label {
+  color: #c0c0c0;
+}
+
+[data-theme="dark"] .efficiency-badge {
+  background: rgba(255, 152, 0, 0.2);
+  color: #ffb84d;
+  border-color: #ff9800;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .duration-display {
+  color: #c0c0c0;
+}
+
+/* Messages et badges */
+[data-theme="dark"] .score-message {
+  color: #ffffff;
+}
+
+[data-theme="dark"] .new-record-badge {
+  background: rgba(255, 215, 0, 0.2);
+  color: #ffd700;
+  border-color: #ffd700;
+  font-weight: 700;
+}
+
+/* Back button */
+[data-theme="dark"] .back-button {
+  color: #8b9aff;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .back-button:hover {
+  color: #a5b3ff;
+}
+
+/* Statistiques - éléments spécifiques */
+[data-theme="dark"] .level-section {
+  background: rgba(102, 126, 234, 0.15);
+  border-color: #667eea;
+}
+
+[data-theme="dark"] .stat-card {
+  background: rgba(102, 126, 234, 0.1);
+  border-color: #667eea;
+  color: #f5f5f5;
+}
+
+[data-theme="dark"] .stat-icon {
+  filter: brightness(1.2);
+}
+
+[data-theme="dark"] .xp-text {
+  color: #d0d0d0;
+}
+
+[data-theme="dark"] .category-stats-section h2,
+[data-theme="dark"] .history-section h2,
+[data-theme="dark"] .chart-section h2 {
+  color: #ffffff;
+}
+
+[data-theme="dark"] .empty-stats {
+  color: #c0c0c0;
+}
+
+[data-theme="dark"] .empty-stats p {
+  color: #d0d0d0;
+}
+
+[data-theme="dark"] .empty-hint {
+  color: #a0a0a0;
+}
+
+/* Paramètres - éléments spécifiques */
+[data-theme="dark"] .settings-section {
+  border-bottom-color: #3d3d54;
+}
+
+[data-theme="dark"] .theme-button {
+  background: #1a1a2e;
+  border-color: #3d3d54;
+  color: #f5f5f5;
+}
+
+[data-theme="dark"] .theme-button:hover {
+  border-color: #667eea;
+  background: rgba(102, 126, 234, 0.1);
+  color: #ffffff;
+}
+
+[data-theme="dark"] .theme-button.active {
+  background: rgba(102, 126, 234, 0.2);
+  border-color: #667eea;
+  color: #8b9aff;
+  font-weight: 700;
+}
+
+[data-theme="dark"] .category-select-button {
+  background: #1a1a2e;
+  border-color: #3d3d54;
+  color: #f5f5f5;
+}
+
+[data-theme="dark"] .category-select-button:hover:not(.disabled) {
+  border-color: #667eea;
+  background: rgba(102, 126, 234, 0.1);
+}
+
+[data-theme="dark"] .category-select-button.disabled {
+  opacity: 0.4;
+  color: #666;
+}
+
+[data-theme="dark"] .timer-slider {
+  background: #1a1a2e;
+}
+
+[data-theme="dark"] .timer-slider::-webkit-slider-thumb {
+  background: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+[data-theme="dark"] .timer-slider::-moz-range-thumb {
+  background: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+[data-theme="dark"] .slider-labels {
+  color: #c0c0c0;
+}
+
+/* Leaderboard */
+[data-theme="dark"] .leaderboard-title {
+  background: linear-gradient(135deg, #8b9aff 0%, #b19aff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: brightness(1.2);
+}
+
+[data-theme="dark"] .leaderboard-stats {
+  color: #d0d0d0;
+}
+
+[data-theme="dark"] .leaderboard-entry {
+  background: #1a1a2e;
+  border-color: #2d2d44;
+  color: #f5f5f5;
+}
+
+[data-theme="dark"] .leaderboard-entry:hover {
+  background: #2d2d44;
+}
+
+[data-theme="dark"] .leaderboard-position {
+  color: #8b9aff;
+  font-weight: 700;
+}
+
+[data-theme="dark"] .leaderboard-score {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+[data-theme="dark"] .leaderboard-date {
+  color: #c0c0c0;
+}
+
+[data-theme="dark"] .medal {
+  filter: brightness(1.2);
+}
+
+/* Progress bar */
+[data-theme="dark"] .progress-bar {
+  background: #1a1a2e;
+}
+
+[data-theme="dark"] .progress-fill {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Amélioration générale du contraste */
+[data-theme="dark"] * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Assurer que les liens sont visibles */
+[data-theme="dark"] a {
+  color: #8b9aff;
+}
+
+[data-theme="dark"] a:hover {
+  color: #a5b3ff;
+}
+
+/* Modes de difficulté - thème sombre */
+[data-theme="dark"] .difficulty-button {
+  background: #1a1a2e;
+  border-color: #3d3d54;
+  color: #f5f5f5;
+}
+
+[data-theme="dark"] .difficulty-button:hover {
+  border-color: #667eea;
+  background: rgba(102, 126, 234, 0.1);
+}
+
+[data-theme="dark"] .difficulty-button.active {
+  background: rgba(102, 126, 234, 0.2);
+  border-color: #667eea;
+}
+
+[data-theme="dark"] .difficulty-name {
+  color: #ffffff;
+}
+
+[data-theme="dark"] .difficulty-desc {
+  color: #c0c0c0;
+}
+
+[data-theme="dark"] .difficulty-button.active .difficulty-name {
+  color: #8b9aff;
+}
+
+[data-theme="dark"] .difficulty-button.active .difficulty-desc {
+  color: #b19aff;
+}
+
+[data-theme="dark"] .category-select-button.locked {
+  background: #1a1a2e;
+  opacity: 0.5;
 }
 
 #root {

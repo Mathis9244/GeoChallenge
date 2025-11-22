@@ -106,6 +106,36 @@
   color: #667eea;
 }
 
+.difficulty-indicator {
+  background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin: 15px 0;
+  text-align: center;
+  border: 2px solid #667eea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.difficulty-label {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.difficulty-badge {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #667eea;
+}
+
+.difficulty-info {
+  font-size: 0.85rem;
+  color: #999;
+}
+
 .home-actions {
   display: flex;
   flex-direction: column;
@@ -113,25 +143,32 @@
   margin-top: 20px;
 }
 
-.leaderboard-button {
+.home-secondary-actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.secondary-button {
   background: white;
   color: #667eea;
   border: 2px solid #667eea;
-  padding: 12px 40px;
-  font-size: 1.1rem;
+  padding: 10px 15px;
+  font-size: 0.95rem;
   font-weight: bold;
-  border-radius: 50px;
+  border-radius: 25px;
   cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s;
+  white-space: nowrap;
 }
 
-.leaderboard-button:hover {
+.secondary-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
   background: #f5f5f5;
 }
 
-.leaderboard-button:active {
+.secondary-button:active {
   transform: translateY(0);
 }
 

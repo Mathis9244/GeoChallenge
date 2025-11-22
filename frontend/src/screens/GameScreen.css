@@ -9,6 +9,18 @@
   flex-direction: column;
   max-height: 100vh;
   overflow-y: auto;
+  animation: screen-slide-in 0.4s ease;
+}
+
+@keyframes screen-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Scrollbar personnalisée pour les catégories */
@@ -50,11 +62,86 @@
   transition: width 0.3s ease;
 }
 
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .score {
-  text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
   color: #667eea;
+}
+
+.undo-button {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: linear-gradient(135deg, #ff9800 0%, #ff5722 100%);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.undo-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 152, 0, 0.4);
+}
+
+.undo-button:active {
+  transform: translateY(0);
+}
+
+.undo-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Thème sombre */
+[data-theme="dark"] .undo-button {
+  background: linear-gradient(135deg, #ff9800 0%, #ff5722 100%);
+  color: white;
+}
+
+.timer {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4caf50;
+  padding: 5px 15px;
+  background: rgba(76, 175, 80, 0.1);
+  border-radius: 20px;
+  border: 2px solid #4caf50;
+}
+
+.timer.timer-warning {
+  color: #f44336;
+  background: rgba(244, 67, 54, 0.1);
+  border-color: #f44336;
+  animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
 }
 
 .current-country {
@@ -143,6 +230,20 @@
   border-color: #4caf50;
   background: #f1f8f4;
   cursor: not-allowed;
+  animation: assigned-pulse 0.5s ease;
+}
+
+@keyframes assigned-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(76, 175, 80, 0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .category-emoji {

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Générateur d'icônes PWA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+    }
+    canvas {
+      border: 2px solid white;
+      border-radius: 10px;
+      margin: 20px 0;
+      background: white;
+    }
+    button {
+      background: white;
+      color: #667eea;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 25px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 5px;
+    }
+    button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🌍 Générateur d'icônes PWA - Géo Challenge</h1>
+    <p>Générez les icônes nécessaires pour l'installation PWA</p>
+    
+    <canvas id="iconCanvas" width="512" height="512"></canvas>
+    
+    <div>
+      <button onclick="generateIcon(192)">Générer icon-192.png</button>
+      <button onclick="generateIcon(512)">Générer icon-512.png</button>
+    </div>
+  </div>
+
+  <script>
+    function generateIcon(size) {
+      const canvas = document.getElementById('iconCanvas');
+      canvas.width = size;
+      canvas.height = size;
+      const ctx = canvas.getContext('2d');
+      
+      // Fond avec gradient
+      const gradient = ctx.createLinearGradient(0, 0, size, size);
+      gradient.addColorStop(0, '#667eea');
+      gradient.addColorStop(1, '#764ba2');
+      ctx.fillStyle = gradient;
+      ctx.fillRect(0, 0, size, size);
+      
+      // Cercle pour l'icône
+      ctx.fillStyle = 'white';
+      ctx.beginPath();
+      ctx.arc(size / 2, size / 2, size * 0.35, 0, Math.PI * 2);
+      ctx.fill();
+      
+      // Globe emoji ou texte - utiliser un cercle avec des lignes pour représenter un globe
+      ctx.fillStyle = '#667eea';
+      ctx.strokeStyle = '#667eea';
+      ctx.lineWidth = size * 0.02;
+      
+      // Dessiner un globe simple
+      ctx.beginPath();
+      ctx.arc(size / 2, size / 2, size * 0.25, 0, Math.PI * 2);
+      ctx.stroke();
+      
+      // Lignes de latitude
+      ctx.beginPath();
+      ctx.arc(size / 2, size / 2 - size * 0.1, size * 0.25, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.arc(size / 2, size / 2 + size * 0.1, size * 0.25, 0, Math.PI * 2);
+      ctx.stroke();
+      
+      // Ligne de longitude
+      ctx.beginPath();
+      ctx.moveTo(size / 2, size / 2 - size * 0.25);
+      ctx.lineTo(size / 2, size / 2 + size * 0.25);
+      ctx.stroke();
+      
+      // Télécharger
+      canvas.toBlob((blob) => {
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.download = `icon-${size}.png`;
+        link.href = url;
+        link.click();
+        URL.revokeObjectURL(url);
+      }, 'image/png');
+    }
+    
+    // Générer l'icône 512 par défaut au chargement
+    window.onload = () => {
+      generateIcon(512);
+      setTimeout(() => generateIcon(192), 500);
+    };
+  </script>
+</body>
+</html>
+

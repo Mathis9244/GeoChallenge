@@ -1,0 +1,96 @@
+.game-hint {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  animation: slideUpHint 0.3s ease;
+  max-width: 400px;
+  width: 90%;
+}
+
+.game-hint-content {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.game-hint-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.game-hint-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+}
+
+.game-hint-close {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.game-hint-close:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+.game-hint-text {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+@keyframes slideUpHint {
+  from {
+    transform: translateX(-50%) translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Thème sombre */
+[data-theme="dark"] .game-hint-content {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+@media (max-width: 768px) {
+  .game-hint {
+    bottom: 10px;
+    max-width: 95%;
+  }
+
+  .game-hint-content {
+    padding: 12px 15px;
+  }
+
+  .game-hint-title {
+    font-size: 0.9rem;
+  }
+
+  .game-hint-text {
+    font-size: 0.85rem;
+  }
+}
+
